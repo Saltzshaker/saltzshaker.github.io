@@ -115,3 +115,7 @@ p {
 .nav-item:hover {
 	color: #f25f25;
 }
+.copyright {
+	text-transform: lowercase;
+	font-weight: 300;
+}
