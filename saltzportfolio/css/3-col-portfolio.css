@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,500,600,800');
 /*!
  * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -6,12 +8,110 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*font-family: 'Raleway', sans-serif;*/
+    font-family: 'Dosis', sans-serif;
+}
+html, body {
+  overflow-x: hidden;
+}
+
+h1 {
+	font-weight: 800;
+	text-transform: lowercase;
+}
+h1:hover {
+	text-decoration: none;
+}
+h2 {
+	font-weight: 600;
+	text-transform: lowercase;
+}
+.highlight {
+	color: #f25f25;
+}
+.highlight:hover {
+	text-decoration: none;
+	color: #2ca5da;
+}
+
+.intro-header {
+	margin-bottom: 40px;
+}
+
+.projects {
+	background-color: #eee;
+	margin: 0 -9999rem;
+  	/* add back negative margin value */
+  	padding: 0.25rem 9999rem;
+}
+
+.post-link {
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #333;
+	font-size: 2.5rem;
+}
+.post-link:hover {
+	background-color: #2ca5da;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .portfolio-item {
     margin-bottom: 25px;
 }
 
+.portfolio-item:hover {
+	/*background: #eee;*/
+	border-radius: 2%;
+}
+.img-responsive {
+	border-radius: 2%;
+}
+.img-responsive:hover {
+	opacity: 0.6;
+}
+
 footer {
     margin: 50px 0;
+}
+
+p {
+	font-size: 2rem;
+}
+
+.fa {
+	color: white;
+	padding: 15px;
+}
+.fa:hover {
+	color: #f25f25;
+}
+
+.page-header {
+	margin-top: 20px;
+}
+.navbar-brand {
+	color: white !important;  
+	padding-top: 15px;
+	font-size: 2em;
+}
+.navbar-brand:hover {
+	color: #2ca5da !important;  
+}
+.nav {
+	color: #333;
+}
+.navbar-nav {
+	font-size: 2em;
+	color: white;
+	padding-top: 5px;
+	float: right;
+}
+.nav-item {
+	padding-left: 15px;
+}
+.nav-item:hover {
+	color: #f25f25;
 }
