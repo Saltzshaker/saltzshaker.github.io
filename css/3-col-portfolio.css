@@ -23,7 +23,6 @@ h1:hover {
 	text-decoration: none;
 }
 h2 {
-	font-weight: 600;
 	text-transform: lowercase;
 }
 .highlight {
@@ -35,14 +34,15 @@ h2 {
 }
 
 .intro-header {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
-.projects {
+.header {
 	background-color: #eee;
 	margin: 0 -9999rem;
   	/* add back negative margin value */
   	padding: 0.25rem 9999rem;
+  	margin-top: -11px;
 }
 
 .post-link {
@@ -82,7 +82,7 @@ p {
 }
 
 .fa {
-	color: white;
+	color: #333;
 	padding: 15px;
 }
 .fa:hover {
@@ -93,19 +93,23 @@ p {
 	margin-top: 20px;
 }
 .navbar-brand {
-	color: white !important;  
 	padding-top: 15px;
 	font-size: 2em;
+	text-transform: lowercase;
+	font-weight: 800;
+	color: #333 !important;
 }
 .navbar-brand:hover {
 	color: #2ca5da !important;  
 }
-.nav {
-	color: #333;
+.navbar-inverse {
+	background-color: white;
+	border-color: #eee;
+	border-bottom-width: 3px;
 }
 .navbar-nav {
 	font-size: 2em;
-	color: white;
+	color: #333;
 	padding-top: 5px;
 	float: right;
 }
@@ -115,6 +119,10 @@ p {
 .nav-item:hover {
 	color: #f25f25;
 }
+.projects {
+	margin-top: 40px;
+}
+
 .copyright {
 	text-transform: lowercase;
 	font-weight: 300;
