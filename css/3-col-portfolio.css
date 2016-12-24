@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,500,600,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans');
+
 /*!
  * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -10,11 +12,15 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     /*font-family: 'Raleway', sans-serif;*/
     font-family: 'Dosis', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
 }
 html, body {
   overflow-x: hidden;
 }
 
+/*h1,h2,h3,h4 {
+    font-family: 'Montserrat', sans-serif;
+}*/
 h1 {
 	font-weight: 800;
 	text-transform: lowercase;
@@ -41,7 +47,7 @@ h2 {
 	background-color: #eee;
 	margin: 0 -9999rem;
   	/* add back negative margin value */
-  	padding: 0.25rem 9999rem;
+  	padding: 14.25rem 9999rem;
   	margin-top: -11px;
 }
 
