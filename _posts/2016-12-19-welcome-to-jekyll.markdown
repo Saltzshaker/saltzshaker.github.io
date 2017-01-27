@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-12-19 22:37:16 -0500
+title:  "Into the Mode"
+banner_img: "intothemode-700x400.png"
+date:   2016-03-22 15:33:53 -0400
+permalink: into-the-mode
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
