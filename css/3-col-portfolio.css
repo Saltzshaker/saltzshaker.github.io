@@ -95,6 +95,10 @@ footer {
     margin-left: 2rem;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .copyright p span {
     padding: .5rem;
 }
