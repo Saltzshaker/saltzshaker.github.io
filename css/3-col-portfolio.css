@@ -198,5 +198,7 @@ ul {
     }
     .header {
         margin-top: 5rem;
+        background: url(/img/aerial-hero-mobile.png) no-repeat center center fixed;
     }
+    
 }
