@@ -102,8 +102,10 @@ a:hover {
 .copyright p span {
     padding: .5rem;
 }
-p {
+
+.copyright p {
     font-size: 2rem;
+    padding-left: 1.5rem;
 }
 
 .fa {
@@ -182,7 +184,7 @@ ul {
 
 @media screen and (max-width: 767px) {
     .navbar-nav {
-    margin-left: 1rem;
+        margin-left: 1rem;
     }
     .navbar-nav ul li::after {
         border-bottom: #333 solid 1px;
