@@ -110,7 +110,11 @@ p {
     color: #333 !important;
 }
 
-.fa:hover {
+.navbar-right li a:hover {
+    color: #f25f25 !important;
+}
+
+.navbar-nav .fa:hover {
     color: #f25f25;
 }
 
