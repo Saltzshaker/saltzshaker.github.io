@@ -29,9 +29,12 @@ h4 {
     color: white;
 }
 
+.header h1 {
+    text-transform: lowercase;
+}
+
 h1 {
     font-weight: 800;
-    text-transform: lowercase;
     font-size: 6rem;
 }
 
@@ -77,16 +80,11 @@ h2 {
     display: flex;
 }
 
-.portfolio-item:hover {
-    /*background: #eee;*/
-    border-radius: 2%;
-}
-
 .img-responsive {
     border-radius: 2%;
 }
 
-.img-responsive:hover {
+.post-link .img-responsive:hover {
     opacity: 0.6;
 }
 
@@ -198,12 +196,15 @@ ul {
     }
     .header {
         margin-top: 5rem;
-            text-shadow: 1px 1px #232F1F;
+        text-shadow: 1px 1px #232F1F;
         background: #4CA1AF;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to left, #4CA1AF, #C4E0E5);
         /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to left, #4CA1AF, #C4E0E5);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .post {
+        margin-top: 12rem;
     }
 }
