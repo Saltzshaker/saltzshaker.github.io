@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,500,600,800');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
 
 /*!
  * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
@@ -8,12 +8,25 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+@-webkit-keyframes bounce {
+    0% {
+        -webkit-transform: translateY(-7px);
+        letter-spacing: -0.012em;
+    }
+}
+
+
+
 body {
     padding-top: 70px;
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     /*font-family: 'Raleway', sans-serif;*/
     font-family: 'Dosis', sans-serif;
-    /*font-family: 'Open Sans', sans-serif;*/
+    /*    font-family: 'Open Sans', sans-serif;*/
+}
+
+.post hr {
+    border-top: 1px solid white;
 }
 
 html,
@@ -21,10 +34,33 @@ body {
     overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4 {
+.circle {
+    border-radius: 50%;
+}
+
+p,
+.overview li {
+    font-size: 1.3em;
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+.entry {
+    font-size: 1.3em;
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+.overview h3:first-child {
+    margin-top: 0;
+}
+
+.highlight {
+    font-weight: 700
+}
+
+.header h1,
+.header h2,
+.header h3,
+.header h4 {
     /*    font-family: 'Montserrat', sans-serif;*/
     color: white;
 }
@@ -42,7 +78,7 @@ h1:hover {
     text-decoration: none;
 }
 
-h2 {
+.header h2 {
     text-transform: lowercase;
     font-size: 5rem;
 }
@@ -73,6 +109,8 @@ h2 {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+
+    
 }
 
 .portfolio-item {
@@ -86,6 +124,10 @@ h2 {
 
 .post-link .img-responsive:hover {
     opacity: 0.6;
+}
+
+.portfolio-item:nth-child(3n+1) {
+    clear: both;
 }
 
 footer {
@@ -104,6 +146,7 @@ a:hover {
 .copyright p {
     font-size: 2rem;
     padding-left: 1.5rem;
+    font-family: 'Dosis', sans-serif;
 }
 
 .fa {
@@ -152,7 +195,10 @@ div .posts {
 }
 
 .navbar-brand:hover {
-    color: #9B9B9B !important;
+    color: #f25f25 !important;
+    -webkit-animation: bounce 0.4s infinite alternate;
+    overflow: hidden;
+    animation-fill-mode: backwards;
 }
 
 ul {
@@ -161,6 +207,12 @@ ul {
 
 .nav-item {
     padding-left: 15px;
+}
+
+.navbar-right li:hover {
+    -webkit-animation: bounce 0.4s infinite alternate;
+    overflow: hidden;
+    animation-fill-mode: backwards;
 }
 
 .nav-item:hover {
@@ -174,6 +226,12 @@ ul {
 .copyright {
     text-transform: lowercase;
     font-weight: 300;
+}
+
+@media screen and (max-width: 991px) {
+    .overview h3:first-child {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
