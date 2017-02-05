@@ -13,8 +13,9 @@ categories: jekyll update
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    <small>UX Research into the Academic Paper-Writing Process</small>
+                <h1 class="page-header"> Expressive Biofeedback Chat
+                   <br>
+                    <small>A pilot study exploring sharing chat text with animations based on biofeedback from a wristband sensor</small>
                 </h1>
             </div>
         </div>
@@ -24,16 +25,16 @@ categories: jekyll update
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="/img/ucre/750-500-banner.png" alt="">
+                <img class="img-responsive" src="/img/biofeedback/text-animate.gif" alt="">
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 overview">
                 <h3>Project Description</h3>
                 <p>A user research project using Contextual Inquiry methods to define pain points in the academic research process</p>
                 <ul>
                     <li><span class="highlight">Advised by:</span> Professor Geoffrey Kaufmann & PhD Candidate Fannie Liu</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
+                    <li>Tools: </li>
+                    <li>Methods: </li>
                     <li>Adipiscing Elit</li>
                 </ul>
             </div>

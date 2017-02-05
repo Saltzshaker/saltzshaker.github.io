@@ -29,7 +29,7 @@ categories: jekyll update
                 <img class="img-responsive" src="/img/ucre/750-500-banner.png" alt="">
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 overview">
                 <h3>Project Description</h3>
                 <p>A user research project using Contextual Inquiry methods to define pain points in the academic research process</p>
                 <ul>

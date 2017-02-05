@@ -12,21 +12,23 @@ categories: jekyll update
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    <small>UX Research into the Academic Paper-Writing Process</small>
+                <h1 class="page-header"> Into the Mode
+                   <br>
+                    <small>A simulation of mode-based text editors from computer history</small>
                 </h1>
             </div>
         </div>
+        <hr>
         <!-- /.row -->
 
         <!-- Portfolio Item Row -->
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="/img/ucre/750-500-banner.png" alt="">
+                <img class="img-responsive" src="/img/intothemode/modal.png" alt="">
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 overview">
                 <h3>Project Description</h3>
                 <p>A user research project using Contextual Inquiry methods to define pain points in the academic research process</p>
                 <ul>
@@ -44,7 +46,9 @@ categories: jekyll update
                 <h2>The problem</h2>
                 <p>Our stakeholder was the research search company uReveal.  
                 </p>
-                <img src="/img/ucre/process-diamond.png" alt="Process double diamond" class="img-responsive">
-                <img src="/img/ucre/speeddate.png" alt="Speed-dating story board" class="img-responsive">
+                <img src="/img/intothemode/modal-insert.gif" alt="Insert" class="img-responsive">
+                <img src="/img/intothemode/modal-delete.gif" alt="Delete" class="img-responsive">
+                <img src="/img/intothemode/modal-move2.gif" alt="Move" class="img-responsive">
+                
             </div>
         </div>
