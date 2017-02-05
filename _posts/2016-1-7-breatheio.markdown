@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Breathe.IO"
+title:  "BreatheIO Bot"
 banner_img: "breathio-700x400.png"
 date:   2016-01-07 15:33:53 -0400
 permalink: breathe-io
@@ -13,8 +13,8 @@ categories: jekyll update
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Amviewlate <br>
-                    <small>AR visual cues to enhance mobility in people with Parkinson's disease</small>
+                    BreatheIO Bot <br>
+                    <small>Breathe in and out with BreatheIO's Slack-based breathing exercises</small>
 
                 </h1>
             </div>
@@ -26,7 +26,7 @@ categories: jekyll update
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="/img/amviewlate/amviewlate-banner.png" alt="">
+                <img class="img-responsive" src="/img/breatheio/robo-750x500.png" alt="">
             </div>
 
             <div class="col-md-4 overview">

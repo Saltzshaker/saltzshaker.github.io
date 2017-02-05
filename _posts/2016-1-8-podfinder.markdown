@@ -14,8 +14,8 @@ categories: jekyll update
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Amviewlate <br>
-                    <small>AR visual cues to enhance mobility in people with Parkinson's disease</small>
+                    Audiosear.ch Podcast Show Finder <br>
+                    <small>Research and wireframes toward an intuitive podcast show search UI</small>
 
                 </h1>
             </div>
@@ -27,7 +27,7 @@ categories: jekyll update
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="/img/amviewlate/amviewlate-banner.png" alt="">
+                <img class="img-responsive" src="/img/show-finder/podfinder-750x500.png" alt="">
             </div>
 
             <div class="col-md-4 overview">

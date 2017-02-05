@@ -9,33 +9,37 @@ categories: jekyll update
 ---
 <div class="container post">
 
-        <!-- Portfolio Item Heading -->
+<!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    <small>UX Research into the Academic Paper-Writing Process</small>
+                    Vintage Illustration Mashups <br>
+                    <small>Vector recreations of vintage illustrations</small>
+
                 </h1>
             </div>
         </div>
+        <hr>
         <!-- /.row -->
 
         <!-- Portfolio Item Row -->
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="/img/ucre/750-500-banner.png" alt="">
+                <img class="img-responsive" src="/img/illustration/animals-750x500.png" alt="">
             </div>
 
-            <div class="col-md-4">
-                <h3>Project Description</h3>
-                <p>
-                Presented at CMU's Open Studio
-                </p>
+            <div class="col-md-4 overview">
+                <h3>Overview</h3>
+                <p>Amviewlate is an Augmented Reality prototype for Google Cardboard designed to help people with Parkinson's Disease navigate environments using voice recognition and visual cues.</p>
+                    
+                <p>Amviewlate was featured as a DevPost Staff Pick, selected from hundreds of international hackathon entries.</p>
+                <h3>Project Details</h3>
                 <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
+                    <li><span class="highlight">Team:</span> Pierre Amelot, Sara Stalla, Emily Saltz</li>
+                    <li><span class="highlight">Role:</span> Research and Prototyping Lead</li>
+                    <li><span class="highlight">Methods:</span> Literature Review, Guerilla Interviews, Paper Prototyping</li>
+                    <li><span class="highlight">Tools:</span> Blender, Unity, Vuforia, Google Cardboard, Android Speech Recognizer</li>
                 </ul>
             </div>
 
@@ -46,6 +50,6 @@ categories: jekyll update
                 <h2>The problem</h2>
                 <p>Our stakeholder was the research search company uReveal.  
                 </p>
-<a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/saltzshaker/vintage-children-book-illustrations/"></a>
+<a class="center" data-pin-do="embedBoard" data-pin-board-width="950" data-pin-scale-height="380" data-pin-scale-width="100" href="https://www.pinterest.com/saltzshaker/vintage-children-book-illustrations/"></a>
             </div>
         </div>
