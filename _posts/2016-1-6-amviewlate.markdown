@@ -2,7 +2,7 @@
 layout: post
 title:  "Amviewlate"
 banner_img: "amviewlate-700x400.png"
-date:   2016-01-04 15:33:53 -0400
+date:   2016-01-06 15:33:53 -0400
 permalink: amviewlate
 description: "A voice-activated AR perceptual aid for Parkinson’s disease"
 categories: jekyll update

@@ -2,7 +2,7 @@
 layout: post
 title:  "Into the Mode"
 banner_img: "intothemode-700x400.png"
-date:   2016-01-02 15:33:53 -0400
+date:   2016-01-03 15:33:53 -0400
 permalink: into-the-mode
 description: "An alternate history of text-editing: a simulation based on Xerox Parc-era modal text editing"
 categories: jekyll update
@@ -32,10 +32,8 @@ categories: jekyll update
                 <h3>Project Description</h3>
                 <p>A user research project using Contextual Inquiry methods to define pain points in the academic research process</p>
                 <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
+                    <li><span class="highlight">Tools:</span> HTML, CSS, JavaScript, JQuery</li>
+                    <li><span class="highlight">Class:</span> Programming Usable Interfaces</li>
                 </ul>
             </div>
 

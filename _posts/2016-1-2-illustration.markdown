@@ -2,7 +2,7 @@
 layout: post
 title:  "Vintage Illustation Mashups"
 banner_img: "illustration-700x400.png"
-date:   2016-01-05 15:33:53 -0400
+date:   2016-01-02 15:33:53 -0400
 permalink: illustration-mashups
 description: "An ongoing graphic design project to recreate and combine vintage illustrations as vector artworks"
 categories: jekyll update
