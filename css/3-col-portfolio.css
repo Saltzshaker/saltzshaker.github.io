@@ -31,6 +31,10 @@ body {
     border-top: 1px solid white;
 }
 
+.embed {
+    margin: 3rem auto;
+}
+
 html,
 body {
     overflow-x: hidden;
@@ -59,6 +63,12 @@ p,
     font-weight: 700
 }
 
+.inline {
+    display: inline;
+    margin-left: 1rem;
+    padding-right: 3rem;
+}
+
 .header h1,
 .header h2,
 .header h3,
@@ -67,6 +77,19 @@ p,
     color: white;
 }
 
+.smaller {
+    width: 80%;    
+    margin: 3rem 0 !important;
+}
+
+.lil-smaller {
+    width: 50%;    
+    margin: 3rem 0 !important;
+}
+.even-smaller {
+    width: 30%;    
+    margin: 3rem 0 !important;
+}
 .header h1 {
     text-transform: lowercase;
 }
@@ -111,8 +134,6 @@ h1:hover {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-
-    
 }
 
 .portfolio-item {

@@ -14,7 +14,7 @@ categories: jekyll update
             <div class="col-lg-12">
                 <h1 class="page-header">
                     BreatheIO Bot <br>
-                    <small>Breathe in and out with BreatheIO's Slack-based breathing exercises</small>
+                    <small>A chatbot guide to breathing exercises in Slack</small>
 
                 </h1>
             </div>
@@ -31,15 +31,12 @@ categories: jekyll update
 
             <div class="col-md-4 overview">
                 <h3>Overview</h3>
-                <p>Amviewlate is an Augmented Reality prototype for Google Cardboard designed to help people with Parkinson's Disease navigate environments using voice recognition and visual cues.</p>
-                    
-                <p>Amviewlate was featured as a DevPost Staff Pick, selected from hundreds of international hackathon entries.</p>
+                <p>BreatheIO is a simple Slack bot for breathing exercises. BreatheIO helps incorporate good mental health habits into the workplace in a playful way. Push notifications tell you how long to inhale and exhale, and you’re rewarded for your focus with a calming gif. Users can edit the length of breaths, breathe at their own pace without a counter, or play a random “chill gif.”</p>
                 <h3>Project Details</h3>
                 <ul>
-                    <li><span class="highlight">Team:</span> Pierre Amelot, Sara Stalla, Emily Saltz</li>
-                    <li><span class="highlight">Role:</span> Research and Prototyping Lead</li>
-                    <li><span class="highlight">Methods:</span> Literature Review, Guerilla Interviews, Paper Prototyping</li>
-                    <li><span class="highlight">Tools:</span> Blender, Unity, Vuforia, Google Cardboard, Android Speech Recognizer</li>
+                    <li><span class="highlight">Timeline:</span> Three weeks</li>
+                    <li><span class="highlight">Methods:</span> Experience Prototyping, Empathy Maps, Data Modeling, Decision Trees</li>
+                    <li><span class="highlight">Tools:</span> Slack API, Giphy API, Ruby (Sinatra framework), Postgres/Sqlite</li>
                 </ul>
             </div>
 
@@ -47,9 +44,24 @@ categories: jekyll update
         <!-- Portfolio Item Detail -->
         <div class="row">
             <div class="col-lg-12">
-                <h2>The problem</h2>
-                <p>More than 10 million people worldwide are living with Parkinson's disease. Parkinson’s patients have trouble controlling their movements from reaching for objects to simply walking across the room. These problems lead to loss of independence and reduced quality of life: sufferers often avoid activities outside of the home, leading to isolation and depression.
-                </p>
-                <img src="/img/amviewlate/persona.png" alt="Persona" class="circle">
+                
+<h3>Technical Implementation</h3>
+                <img src="/img/breatheio/breatheslash.png" alt="chill gif" class="img-responsive smaller">
+<p>BreatheIO is a Slack bot built in Ruby and Sinatra. It leverages features in the Slack API such as interactive button messages and media attachments, as well as slash commands and incoming and outgoing webhooks. Gif urls from the Giphy API are stored in a database (Sqlite in development and Postgres in production), and pulled dynamically for the “chill gif” trigger word. The database is managed through the Active Record gem, which I used to access the models for the gifs, events, and slack team information. I also used the json gem to make blocks of json interpretable to Slack, which sends and receives JSON messages.</p>
+        
+        <h3>Conversation flow</h3>
+               <p>I refined the conversation flow through two rounds of experience prototyping. During these sessions, I tested out rough scripts and conversation flows, pretending to be a bot while communicating with several test users. After incorporating their feedback, I arrived at the following conversation flow.</p>
+                <img src="/img/breatheio/BreatheIOwork.png" alt="workflow" class="img-responsive smaller">
+            <h3>Personality</h3>
+<p>If BreatheIO bot were a person, they would be a Hawaiian surfer and monk, combining the laid-back humor of a beach bum with the thoughtful serenity of a theologian. His personality is expressed whenever you launch into a new breath with the “new breath” trigger word by saying “Need a breather? That's what I'm here for” and showing a levitating sock monkey. He is helpful without being pushy. When you’ve completed a breath, he says “Whew, that felt good. Type '/breathe' whenever you want to take another breather with me!” — encouraging, informational, and colloquial.</p>
+
+  <img src="/img/breatheio/breather.png" alt="chill gif" class="img-responsive even-smaller inline">
+  <img src="/img/breatheio/whew.png" alt="chill gif" class="img-responsive even-smaller inline">
+               <img src="/img/breatheio/timer.png" alt="chill gif" class="img-responsive even-smaller inline">
+                <h3>Media & Documentation</h3>
+                <p>Breathing counter in action</p>
+                <img src="/img/breatheio/counter.gif" alt="chill gif" class="img-responsive smaller">
+                <p>Chill gif in action</p>
+                <img src="/img/breatheio/chillgif.gif" alt="chill gif" class="img-responsive lil-smaller">
             </div>
         </div>
