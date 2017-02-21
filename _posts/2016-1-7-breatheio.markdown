@@ -6,6 +6,7 @@ date:   2016-01-07 15:33:53 -0400
 permalink: breathe-io
 description: "A Slack bot who guides you through custom breathing exercises"
 categories: jekyll update
+tag: "Conversational UI design, Chatbot development"
 ---
 <div class="container post">
 
@@ -45,14 +46,14 @@ categories: jekyll update
         <div class="row">
             <div class="col-lg-12">
                 
-<h3>Technical Implementation</h3>
+<h2>Technical Implementation</h2>
                 <img src="/img/breatheio/breatheslash.png" alt="chill gif" class="img-responsive smaller">
 <p>BreatheIO is a Slack bot built in Ruby and Sinatra. It leverages features in the Slack API such as interactive button messages and media attachments, as well as slash commands and incoming and outgoing webhooks. Gif urls from the Giphy API are stored in a database (Sqlite in development and Postgres in production), and pulled dynamically for the “chill gif” trigger word. The database is managed through the Active Record gem, which I used to access the models for the gifs, events, and slack team information. I also used the json gem to make blocks of json interpretable to Slack, which sends and receives JSON messages.</p>
         
-        <h3>Conversation flow</h3>
+        <h2>Conversation flow</h2>
                <p>I refined the conversation flow through two rounds of experience prototyping. During these sessions, I tested out rough scripts and conversation flows, pretending to be a bot while communicating with several test users. After incorporating their feedback, I arrived at the following conversation flow.</p>
                 <img src="/img/breatheio/BreatheIOwork.png" alt="workflow" class="img-responsive smaller">
-            <h3>Personality</h3>
+            <h2>Personality</h2>
 <p>If BreatheIO bot were a person, they would be a Hawaiian surfer and monk, combining the laid-back humor of a beach bum with the thoughtful serenity of a theologian. His personality is expressed whenever you launch into a new breath with the “new breath” trigger word by saying “Need a breather? That's what I'm here for” and showing a levitating sock monkey. He is helpful without being pushy. When you’ve completed a breath, he says “Whew, that felt good. Type '/breathe' whenever you want to take another breather with me!” — encouraging, informational, and colloquial.</p>
 
   <img src="/img/breatheio/breather.png" alt="chill gif" class="img-responsive even-smaller inline">

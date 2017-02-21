@@ -6,6 +6,7 @@ date:   2016-01-08 15:33:53 -0400
 permalink: podfinder
 description: "Podcast recommendation and show search design for Audiosear.ch"
 categories: jekyll update
+tag: "Wireframing, Design"
 ---
 
 <div class="container post">
@@ -32,15 +33,12 @@ categories: jekyll update
 
             <div class="col-md-4 overview">
                 <h3>Overview</h3>
-                <p>Amviewlate is an Augmented Reality prototype for Google Cardboard designed to help people with Parkinson's Disease navigate environments using voice recognition and visual cues.</p>
+                <p>I helped develop a feature for podcast show search.</p>
                     
-                <p>Amviewlate was featured as a DevPost Staff Pick, selected from hundreds of international hackathon entries.</p>
                 <h3>Project Details</h3>
                 <ul>
-                    <li><span class="highlight">Team:</span> Pierre Amelot, Sara Stalla, Emily Saltz</li>
-                    <li><span class="highlight">Role:</span> Research and Prototyping Lead</li>
-                    <li><span class="highlight">Methods:</span> Literature Review, Guerilla Interviews, Paper Prototyping</li>
-                    <li><span class="highlight">Tools:</span> Blender, Unity, Vuforia, Google Cardboard, Android Speech Recognizer</li>
+                    <li><span class="highlight">Methods:</span> Wireframing, Card-sorting</li>
+                    <li><span class="highlight">Tools:</span> Sketch</li>
                 </ul>
             </div>
 
@@ -48,9 +46,14 @@ categories: jekyll update
         <!-- Portfolio Item Detail -->
         <div class="row">
             <div class="col-lg-12">
-                <h2>The problem</h2>
-                <p>More than 10 million people worldwide are living with Parkinson's disease. Parkinson’s patients have trouble controlling their movements from reaching for objects to simply walking across the room. These problems lead to loss of independence and reduced quality of life: sufferers often avoid activities outside of the home, leading to isolation and depression.
-                </p>
-                <img src="/img/amviewlate/persona.png" alt="Persona" class="circle">
+                <h2>Card-sort exercise</h2>
+                <img src="/img/show-finder/ana-cardsort.png" alt="Persona" class="img-responsive">
+                <img src="/img/show-finder/covers.png" alt="Persona" class="img-responsive">
+                <h2>Wireframes</h2>
+                <img src="/img/show-finder/mobile.png" alt="Persona" class="img-responsive">
+                <img src="/img/show-finder/pixelmap1.png" alt="Persona" class="img-responsive">
+                <img src="/img/show-finder/pixelmap2.png" alt="Persona" class="img-responsive">
+                <img src="/img/show-finder/pixelmap3.png" alt="Persona" class="img-responsive">
+                <img src="/img/show-finder/pixelmap4.png" alt="Persona" class="img-responsive">
             </div>
         </div>

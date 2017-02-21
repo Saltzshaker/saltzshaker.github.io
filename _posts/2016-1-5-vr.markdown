@@ -6,6 +6,7 @@ date:   2016-01-05 15:33:53 -0400
 permalink: vr-news-bubble
 description: "Social VR concept connecting users in different social media news bubbles"
 categories: jekyll update
+tag: "Virtual reality, Interactive art"
 ---
 <div class="container post">
 
@@ -14,7 +15,7 @@ categories: jekyll update
             <div class="col-lg-12">
                 <h1 class="page-header">VR News Bubble
                    <br>
-                    <small>Social VR concept connecting users in different social media news bubbles</small>
+                    <small>Social VR concept for connecting across our filter bubbles</small>
                 </h1>
             </div>
         </div>
@@ -29,15 +30,15 @@ categories: jekyll update
             </div>
 
             <div class="col-md-4 overview">
-                <h3>Project Description</h3>
-                <p>
-                Presented at CMU's Open Studio
+                
+                <h3>Overview</h3>
+                <p>What if you could peer into a stranger's social media feed? VR News Bubble is a social VR concept for connecting people across diverse social and political networks. VR News Bubble was presented at CMU's Open Studio Night in Fall 2016.
                 </p>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
+                <h3>Project Description</h3>
+                   <ul>
+                    <li><span class="highlight">Team:</span> Michael James and Emily Saltz</li>
+                    <li><span class="highlight">Skills:</span> Paper Prototyping, VR Prototyping, 3D Scanning, Scene Design</li>
+                    <li><span class="highlight">Tools:</span> Unity, Blender, Photoshop, Structure scanner, ItSeez3D</li>
                 </ul>
             </div>
 
@@ -45,10 +46,11 @@ categories: jekyll update
         <!-- Portfolio Item Detail -->
         <div class="row">    
             <div class="col-lg-12">
-                <h2>The problem</h2>
-                <p>Our stakeholder was the research search company uReveal.  
-                </p>
-                <img src="/img/ucre/process-diamond.png" alt="Process double diamond" class="img-responsive">
-                <img src="/img/ucre/speeddate.png" alt="Speed-dating story board" class="img-responsive">
+                <h2>Media and Documentation</h2>
+                <p></p>
+                <img src="/img/vr-news/paper-proto.jpeg" alt="Process double diamond" class="img-responsive">
+                <img src="/img/vr-news/altright.png" alt="Process double diamond" class="img-responsive">
+                <img src="/img/vr-news/bernie-bro.png" alt="Process double diamond" class="img-responsive">
+                <img src="/img/vr-news/cop.png" alt="Process double diamond" class="img-responsive">
             </div>
         </div>

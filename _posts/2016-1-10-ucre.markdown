@@ -5,6 +5,7 @@ banner_img: "700x400-ucre.png"
 date:   2016-01-10 15:33:53 -0400
 permalink: ucre-researchers
 description: "Using Contextual Inquiry methods to discover the pain points of the academic paper-writing process"
+tag: "Contextual design, User research"
 categories: jekyll update
 ---
 
@@ -30,13 +31,11 @@ categories: jekyll update
             </div>
 
             <div class="col-md-4 overview">
+                <h3>Overview</h3>
+                <p>A user research project using Contextual Inquiry methods to define pain points in the academic research process.</p>
                 <h3>Project Description</h3>
-                <p>A user research project using Contextual Inquiry methods to define pain points in the academic research process</p>
                 <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
+                    <li><span class="highlight">Team:</span> Adam Yee, Vita Chen, Neil Bantoc, Emily Saltz</li>
                 </ul>
             </div>
 
@@ -49,5 +48,12 @@ categories: jekyll update
                 </p>
                 <img src="/img/ucre/process-diamond.png" alt="Process double diamond" class="img-responsive">
                 <img src="/img/ucre/speeddate.png" alt="Speed-dating story board" class="img-responsive">
+                <img src="/img/ucre/affinity-actionshot.jpg" alt="Speed-dating story board" class="img-responsive">
+                <img src="/img/ucre/affinity-close.jpeg" alt="Speed-dating story board" class="img-responsive">
+                <img src="/img/ucre/cultural-model.png" alt="Speed-dating story board" class="img-responsive">
+                <img src="/img/ucre/sequence-flow.png" alt="Speed-dating story board" class="img-responsive">
+                <img src="/img/ucre/visioning.jpeg" alt="Speed-dating story board" class="img-responsive">
+                <img src="/img/ucre/key-statements.png" alt="Speed-dating story board" class="img-responsive">
+                <img src="/img/ucre/final.png" alt="Speed-dating story board" class="img-responsive">
             </div>
         </div>

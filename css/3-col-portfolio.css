@@ -127,18 +127,28 @@ h1:hover {
     text-transform: uppercase;
     color: #333;
     font-size: 2.5rem;
+    transition: .5s ease-in-out all;
 }
 
 .post-link:hover {
-    background-color: #2ca5da;
-    color: white;
-    text-transform: uppercase;
     text-decoration: none;
+    color: #f25f25;
+}
+
+iframe, figure {
+    margin: 3rem 0;
 }
 
 .portfolio-item {
     margin-bottom: 25px;
     display: flex;
+    
+}
+
+
+.post-link .img-responsive {
+    transition: .3s ease-in-out all;
+    
 }
 
 .img-responsive {
@@ -174,6 +184,7 @@ a:hover {
 
 .fa {
     color: #333;
+    transition: .3s linear all;
 }
 
 .navbar-right li a {
@@ -194,6 +205,7 @@ div .posts {
 
 .page-header {
     margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .navbar-right {

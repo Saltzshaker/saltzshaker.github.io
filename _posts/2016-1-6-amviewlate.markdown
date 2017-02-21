@@ -6,6 +6,7 @@ date:   2016-01-06 15:33:53 -0400
 permalink: amviewlate
 description: "A voice-activated AR perceptual aid for Parkinson’s disease"
 categories: jekyll update
+tag: "Rapid prototyping, AR, HealthTech"
 ---
 
 <div class="container post">
@@ -51,6 +52,13 @@ categories: jekyll update
                 <h2>The problem</h2>
                 <p>More than 10 million people worldwide are living with Parkinson's disease. Parkinson’s patients have trouble controlling their movements from reaching for objects to simply walking across the room. These problems lead to loss of independence and reduced quality of life: sufferers often avoid activities outside of the home, leading to isolation and depression.
                 </p>
+                
                 <img src="/img/amviewlate/persona.png" alt="Persona" class="circle">
+                <img src="/img/amviewlate/paper-prototyping.png" alt="Persona" class="img-responsive">
+                <img src="/img/amviewlate/image-targets.png" alt="Persona" class="img-responsive">
+                <img src="/img/amviewlate/staircase.png" alt="Persona" class="img-responsive">
+                <img src="/img/amviewlate/foot.png" alt="Persona" class="img-responsive">
+                <img src="/img/amviewlate/CUP.png" alt="Persona" class="img-responsive">
+                
             </div>
         </div>

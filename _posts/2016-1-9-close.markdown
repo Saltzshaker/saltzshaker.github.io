@@ -6,6 +6,7 @@ date:   2016-01-09 15:33:53 -0400
 permalink: close
 description: "An interactive installation exploring the boundaries of personal & technological space"
 categories: jekyll update
+tag: "Interactive art, Creative coding"
 ---
 <div class="container post">
 
@@ -15,7 +16,7 @@ categories: jekyll update
                 <h1 class="page-header">
                     Close (but not too close) <br>
                     <small>
-                        Negotiating personal space with a digital projection
+                        Negotiating personal space with a virtual figure
                     </small>
 
                 </h1>
@@ -38,8 +39,8 @@ categories: jekyll update
                 <h3>Project Details</h3>
                 <ul>
                     <li><span class="highlight">Team:</span> Jess Medenbach, Emily Saltz, Irene Alvarado, Caroline Hermans</li>
-<!--                    <li><span class="highlight">Role:</span>Creative Director</li>-->
-                    <li><span class="highlight">Tools:</span> Max MSP, Kinect, Processing, Video Projection, Millumin</li>
+                    <li><span class="highlight">Role:</span> Experience Designer</li>
+                    <li><span class="highlight">Tools:</span> Max MSP, Kinect, Processing, Video Projection</li>
                 </ul>
             </div>
 
@@ -47,9 +48,29 @@ categories: jekyll update
         <!-- Portfolio Item Detail -->
         <div class="row">
             <div class="col-lg-12">
-                <h2>Process</h2>
-                <p>More than 10 million people worldwide are living with Parkinson's disease. Parkinson’s patients have trouble controlling their movements from reaching for objects to simply walking across the room. These problems lead to loss of independence and reduced quality of life: sufferers often avoid activities outside of the home, leading to isolation and depression.
-                </p>
-                <img src="/img/amviewlate/persona.png" alt="Persona" class="circle">
+                <h2>Technology</h2>
+                <p>A Kinect is used to track the viewer’s distance to the video projected on a sheet. The OSC distance values are divided into four ranges, each range triggering a different sets of video clips and glitch effects to play in a Processing sketch. The OSC distance ranges are also sent to Max MSP, which triggers one of three sounds to play.</p>
+                <h2>Design</h2>
+                <img src="/img/close/states" class="img-responsive" alt="User experience map">
+                <h2>Experience</h2>
+                <p>To start, a single viewer enters an enclosed space and is met by a figure of a woman in a black dress. From a distance, she’s uncomfortable, looking away distractedly over a soundtrack of choppy cell phone interference. Walking forward, the viewer’s relationship with the woman changes. As you walk closer, she directs her gaze towards you, and beautiful music plays. But walk further and the viewer crosses into the “too close” territory. The woman glitches, feedback sounds echo, and she visibly withdraws. Clearly, she wishes you had stayed just a bit further away.</p>
+                <div class="row">
+                    <div class="col-lg-6">
+                       <figure class="figure">
+                            <img src="/img/close/justright" class="img-responsive" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">The "just right" region</figcaption>
+                        </figure>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <figure class="figure">
+                            <img src="/img/close/far" class="img-responsive" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">The "too far" region</figcaption>
+                        </figure>
+
+                    </div>
+                </div>                
+               <iframe src="https://player.vimeo.com/video/183056679" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+               
             </div>
         </div>
