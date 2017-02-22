@@ -8,6 +8,7 @@ description: "A Slack bot who guides you through custom breathing exercises"
 categories: jekyll update
 tag: "Conversational UI design, Chatbot development"
 ---
+<div class="fullpost">
 <div class="container post">
 
         <!-- Portfolio Item Heading -->
@@ -32,13 +33,12 @@ tag: "Conversational UI design, Chatbot development"
 
             <div class="col-md-4 overview">
                 <h3>Overview</h3>
-                <p>BreatheIO is a simple Slack bot for breathing exercises. BreatheIO helps incorporate good mental health habits into the workplace in a playful way. Push notifications tell you how long to inhale and exhale, and you’re rewarded for your focus with a calming gif. Users can edit the length of breaths, breathe at their own pace without a counter, or play a random “chill gif.”</p>
+                <p>BreatheIO is a simple Slack bot for breathing exercises. BreatheIO helps incorporate good mental health habits into the workplace in a playful way.</p>
                 <h3>Project Details</h3>
-                <ul>
-                    <li><span class="highlight">Timeline:</span> Three weeks</li>
-                    <li><span class="highlight">Methods:</span> Experience Prototyping, Empathy Maps, Data Modeling, Decision Trees</li>
-                    <li><span class="highlight">Tools:</span> Slack API, Giphy API, Ruby (Sinatra framework), Postgres/Sqlite</li>
-                </ul>
+
+                    <p><span class="highlight">Timeline:</span> Three weeks</p>
+                    <p><span class="highlight">Methods:</span> Experience Prototyping, Empathy Maps, Data Modeling</p>
+                    <p><span class="highlight">Tools:</span> Slack API, Giphy API, Ruby (Sinatra framework), Postgres/Sqlite</p>
             </div>
 
         </div>
@@ -65,4 +65,5 @@ tag: "Conversational UI design, Chatbot development"
                 <p>Chill gif in action</p>
                 <img src="/img/breatheio/chillgif.gif" alt="chill gif" class="img-responsive lil-smaller">
             </div>
+        </div>
         </div>

@@ -8,6 +8,7 @@ description: "An alternate history of text-editing: a simulation based on Xerox 
 categories: jekyll update
 tags: "Interaction design, Web development"
 ---
+<div class="fullpost">
 <div class="container post">
 
         <!-- Portfolio Item Heading -->
@@ -63,4 +64,5 @@ tags: "Interaction design, Web development"
                 <p>3. Move Mode</p>
                 <img src="/img/intothemode/modal-move2.gif" alt="Move" class="img-responsive smaller">
             </div>
+        </div>
         </div>

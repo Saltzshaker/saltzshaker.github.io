@@ -8,6 +8,7 @@ description: "An ongoing graphic design project to recreate and combine vintage 
 categories: jekyll update
 tag: "Graphic design, Side project"
 ---
+<div class="fullpost">
 <div class="container post">
 
 <!-- Portfolio Item Heading -->
@@ -32,11 +33,10 @@ tag: "Graphic design, Side project"
 
             <div class="col-md-4 overview">
                 <h3>Overview</h3>
-                <p>For the last few years I've been collecting vintage illustrations online and in print.</p>
+                <p>For the last few years I've been collecting scanned vintage illustrations, digitizing and remixing them into vector art.</p>
                 <h3>Project Details</h3>
-                <ul>
-                    <li><span class="highlight">Tools:</span> Adobe Illustrator</li>
-                </ul>
+                <p><span class="highlight">Tools:</span> Adobe Illustrator</p>
+                <p><span class="highlight">Timeline:</span> Ongoing</p>
             </div>
 
         </div>
@@ -46,6 +46,9 @@ tag: "Graphic design, Side project"
                 <h3>More vintage goodness!</h3>
                 <p>Check out some more illustrations in my queue. Have a request? <a href="mailto:essaltz@gmail.com?Subject=Hello" target="_top">Drop me a line.</a>
                 </p>
-<a class="center" data-pin-do="embedBoard" data-pin-board-width="950" data-pin-scale-height="380" data-pin-scale-width="100" href="https://www.pinterest.com/saltzshaker/vintage-children-book-illustrations/"></a>
+            <div class="embed">
+           <a class="center" data-pin-do="embedBoard" data-pin-board-width="950" data-pin-scale-height="380" data-pin-scale-width="100" href="https://www.pinterest.com/saltzshaker/vintage-children-book-illustrations/"></a>
             </div>
+            </div>
+        </div>
         </div>
