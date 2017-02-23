@@ -75,11 +75,16 @@ p,
 .header h1,
 .header h2,
 .header h3,
-.header h4 {
+.header h4 
+{
     /*    font-family: 'Montserrat', sans-serif;*/
     color: white;
 }
 
+.header-writing h1 {
+    color: white !important;
+    font-weight: 500;
+}
 .smaller {
     width: 80%;    
     margin: 3rem 0 !important;
@@ -116,7 +121,8 @@ h1:hover {
 }
 
 .header {
-    background: url(/img/aerial-hero-2560.png) no-repeat center center fixed;
+    background: url(/img/aeriel-hero-dark.png) no-repeat center center fixed;
+    
     background-size: cover;
     text-shadow: 2px 2px #232F1F;
     text-align: center;
@@ -124,6 +130,27 @@ h1:hover {
     padding: 8rem 9999rem;
     margin-top: -11px;
 }
+.header-writing {
+    background: url(/img/sky-hero.png) no-repeat center center fixed;
+    
+    background-size: cover;
+    text-shadow: 2px 2px #232F1F;
+    text-align: center;
+    margin: 0 -9999rem;
+    padding: 8rem 9999rem;
+    margin-top: -11px;
+}
+
+.download {
+    color: #333;
+    transition: .3s linear all;
+}
+
+.download:hover, .fa-download:hover {
+    color: #7F7F7F !important;
+}
+
+
 
 .post-link {
     font-weight: 800;
@@ -249,7 +276,7 @@ iframe, figure {
 }
 
 .img-responsive {
-    border-radius: 2%;
+/*    border-radius: 2%;*/
 }
 
 .post-link .img-responsive:hover {
@@ -287,6 +314,7 @@ a:hover {
     color: #333;
     transition: .3s linear all;
 }
+
 
 .navbar-right li a {
     color: #333 !important;
