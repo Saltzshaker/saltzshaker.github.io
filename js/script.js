@@ -38,14 +38,14 @@ $("a").on('click', function (event) {
 $(".project-link").on('click', function (event) {
 
     // Make sure this.hash has a value before overriding default behavior
-    $(this).addClass('active');
+    $(this).addClass('active-mobile');
     
 });
 
 $(".navbar-toggle").on('click', function (event) {
 
     // Make sure this.hash has a value before overriding default behavior
-    this.addClass('active');
+    this.addClass('active-mobile');
     
 });
 
