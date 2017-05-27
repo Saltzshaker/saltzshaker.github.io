@@ -195,7 +195,7 @@ figure {
     margin: 3rem 0;
 }
 
-.portfolio-item {
+.portfolio-item, .main-portfolio-item {
     margin-bottom: 25px;
     display: flex;
 }
@@ -357,6 +357,9 @@ h3 {
     margin-top: 0 !important;
 }
 
+.main-portfolio-item:nth-child(2n+1) {
+    clear: both;
+}
 .portfolio-item:nth-child(3n+1) {
     clear: both;
 }
@@ -565,7 +568,7 @@ ul {
         margin-top: 0;
         padding-top: 0;
     }
-    .portfolio-item {
+    .portfolio-item, .main-portfolio-item {
         top: -160px !important;
         margin-bottom: -60px;
         */
