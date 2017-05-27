@@ -95,10 +95,8 @@ p,
     color: white !important;
 }
 
-
 .about-pic {
-/*border: 3px #f25f25 solid;*/
-    
+    /*border: 3px #f25f25 solid;*/
 }
 
 .header h3 {
@@ -114,9 +112,9 @@ p,
 }
 
 h2 {
-font-size: 1.6rem;
-text-transform: uppercase;
-font-weight: 500;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .smaller {
@@ -335,9 +333,12 @@ h3 {
 
 /* End Modal stuff */
 
+
+/*
 .post-link .img-responsive {
     transition: opacity .5s ease-in-out;
 }
+*/
 
 .img-responsive {
     /*    border-radius: 2%;*/
@@ -389,6 +390,7 @@ a:hover {
     border-top-left-radius: .4em;
     border-top-right-radius: .4em;
 }
+
 .navbar-right li .active {
     background-color: #f25f25 !important;
     color: white !important;
@@ -396,7 +398,50 @@ a:hover {
     border-top-right-radius: .4em;
 }
 
+.img-wrapper {
+    width: 100%;
+    position: relative;
+}
 
+.text-test {
+    background: rgba(140, 46, 12, 0.75);
+    color: white;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    opacity: 0;
+    -webkit-transition: opacity 700ms;
+    -moz-transition: opacity 700ms;
+    -o-transition: opacity 700ms;
+    transition: opacity 700ms;
+}
+
+.text-test:hover {
+    opacity: 1;
+}
+
+.text-test > p:nth-child(1) {
+    text-transform: initial;
+    font-family: 'Fira Sans', 'sans-serif';
+    font-size: 1.6rem;
+    text-align: left;
+    font-weight: 400;
+}
+.text-test > p:nth-child(2) {
+    text-transform: initial;
+    font-family: 'Fira Sans', 'sans-serif';
+    font-size: 1.6rem;
+    text-align: left;
+    font-style: italic;
+}
 
 .navbar-nav .fa:hover {
     color: #f25f25;
@@ -457,20 +502,19 @@ ul {
     margin-top: 40px;
 }
 
-
 .overlay-text {
     margin: 2vw 20vw 3vw 20vw;
     text-align: center;
     font-size: 1.3rem;
     opacity: 0;
 }
+
 .overlay-text:hover {
     margin: 2vw 20vw 3vw 20vw;
     text-align: center;
     font-size: 1.3rem;
     opacity: 1;
 }
-
 
 .copyright {
     text-transform: lowercase;
@@ -480,6 +524,9 @@ ul {
 .navbar-header {
     background-color: white !important;
 }
+
+
+
 
 @media screen and (max-width: 991px) {
     .overview h3:first-child {
@@ -493,11 +540,18 @@ ul {
         max-width: 970;
     }
 }
+
 @media only screen and (min-width: 1200px) {
     /* styles for MacBook Pro-sized screens and larger */
     .about-container {
-    height: 70vh;
+        height: 70vh;
+    }
 }
+
+@media screen and (max-width: 992px) {
+    .text-test {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -514,17 +568,15 @@ ul {
         margin-top: 0;
         padding-top: 0;
     }
-    
     .portfolio-item {
-            top: -160px !important;
-        margin-bottom: -60px; */
+        top: -160px !important;
+        margin-bottom: -60px;
+        */
     }
-    
     .navbar-right li a:hover {
         color: #f25f25 !important;
         background-color: white !important;
     }
-    
     body {
         padding-top: 0 !important;
     }
@@ -543,6 +595,4 @@ ul {
     }
 }
 
-@media screen and (min-width: 767px) {
-    
-}
+@media screen and (min-width: 767px) {}
