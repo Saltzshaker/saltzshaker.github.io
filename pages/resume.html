@@ -1,4 +1,7 @@
-<!-- Navigation -->
+--- 
+permalink: resume
+--- 
+{% include head.html %} 
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -15,13 +18,33 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#featured" class="project-link"><span>projects</span></a></li>
                 <li><a href="/writing.html"><span>writing</span></a></li>
                 <li><a href="/about.html"><span>about me</span></a></li>
-                <li><a href="/resume.html"><span>résumé</span></a></li>
+                <li><a href="/resume.html" class="active"><span>résumé</span></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
 </nav>
+
+<div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <div class="fullpost">
+      <div class="post"></div>
+       <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Resume</h2>
+
+            <h2>
+                 <a href="/emily-saltz-resume.pdf" class="download" download>
+                     <h3><span class="fa fa-download fa-1x" aria-hidden="true"></span> download pdf</h3>
+                 </a>
+            </h2>
+            <iframe src="/emily-saltz-resume.pdf" class="resume-frame" frameborder="0"></iframe>
+        </div>
+    </div>
+    </div>
+</div>
+

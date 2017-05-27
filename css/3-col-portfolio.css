@@ -1,6 +1,9 @@
+/*
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,500,600,800');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
+*/
+
 
 /*!
  * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
@@ -8,14 +11,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-
-@-webkit-keyframes bounce {
-    0% {
-        -webkit-transform: translateY(-7px);
-        letter-spacing: -0.012em;
-    }
-}
-
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Yrsa:300');
 .center {
     text-align: center;
     margin: 0 auto;
@@ -25,18 +22,20 @@ article {
     margin: 0 0 4rem 0;
 }
 
+.resume-frame {
+    width: 70vw;
+    height: 70vw;
+}
+
 body {
     padding-top: 70px;
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    /*font-family: 'Raleway', sans-serif;*/
-    font-family: 'Dosis', sans-serif;
-    /*    font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .post hr {
     border-top: 1px solid white;
 }
-
 
 .embed {
     margin: 3rem auto;
@@ -54,15 +53,16 @@ body {
 p {
     margin: 0 0 .5rem;
 }
+
 p,
 .overview li {
     font-size: 1.3em;
-    font-family: Open Sans, Arial, sans-serif;
+    font-family: 'Yrsa', serif;
 }
 
 .entry {
     font-size: 1.3em;
-    font-family: Open Sans, Arial, sans-serif;
+    font-family: 'Yrsa', serif;
 }
 
 .overview h3:first-child {
@@ -70,7 +70,7 @@ p,
 }
 
 .highlight {
-    font-weight: 700
+    font-weight: 300;
 }
 
 .inline {
@@ -82,36 +82,61 @@ p,
 .header h1,
 .header h2,
 .header h3,
-.header h4 
-{
+.header h4 {
     /*    font-family: 'Montserrat', sans-serif;*/
     color: white;
 }
 
+.navbar-toggle {
+    background-color: #333 !important;
+}
+
 .header-writing h1 {
     color: white !important;
-    font-weight: 500;
 }
+
+
+.about-pic {
+/*border: 3px #f25f25 solid;*/
+    
+}
+
+.header h3 {
+    font-size: 3rem;
+    text-transform: lowercase;
+    font-style: italic;
+    color: #ccc !important;
+}
+
+.header h1 {
+    font-size: 7.8rem;
+    text-transform: lowercase;
+}
+
+h2 {
+font-size: 1.6rem;
+text-transform: uppercase;
+font-weight: 500;
+}
+
 .smaller {
-    width: 80%;    
+    width: 80%;
     margin: 3rem 0 !important;
 }
 
 .lil-smaller {
-    width: 50%;    
+    width: 50%;
     margin: 3rem 0 !important;
 }
+
 .even-smaller {
-    width: 30%;    
+    width: 30%;
     margin: 3rem 0 !important;
-}
-.header h1 {
-    text-transform: lowercase;
 }
 
 h1 {
-    font-weight: 800;
-    font-size: 6rem;
+    font-weight: 300;
+    font-size: 4rem;
 }
 
 h1:hover {
@@ -120,26 +145,22 @@ h1:hover {
 
 .header h2 {
     text-transform: lowercase;
-    font-size: 5rem;
-}
-
-.header h1 {
-    font-weight: 600;
+    font-size: 2rem;
 }
 
 .header {
     background: url(/img/aeriel-hero-dark.png) no-repeat center center fixed;
-    
     background-size: cover;
     text-shadow: 2px 2px #232F1F;
     text-align: center;
     margin: 0 -9999rem;
-    padding: 8rem 9999rem;
+    padding: 20rem 9999rem;
     margin-top: -11px;
+    height: 100vh;
 }
+
 .header-writing {
     background: url(/img/sky-hero.png) no-repeat center center fixed;
-    
     background-size: cover;
     text-shadow: 2px 2px #232F1F;
     text-align: center;
@@ -153,14 +174,13 @@ h1:hover {
     transition: .3s linear all;
 }
 
-.download:hover, .fa-download:hover {
+.download:hover,
+.fa-download:hover {
     color: #7F7F7F !important;
 }
 
-
-
 .post-link {
-    font-weight: 800;
+    font-weight: 300;
     text-transform: uppercase;
     color: #333;
     font-size: 2.5rem;
@@ -172,14 +192,14 @@ h1:hover {
     color: #f25f25;
 }
 
-iframe, figure {
+iframe,
+figure {
     margin: 3rem 0;
 }
 
 .portfolio-item {
     margin-bottom: 25px;
     display: flex;
-    
 }
 
 .post-description img {
@@ -187,31 +207,48 @@ iframe, figure {
     border-radius: 0;
 }
 
- /* Style the Image Used to Trigger the Modal */
+
+/* Style the Image Used to Trigger the Modal */
+
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+#myImg:hover {
+    opacity: 0.7;
 }
 
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+
 /* Modal Content (Image) */
+
 .modal-content {
     margin: auto;
     display: block;
@@ -219,7 +256,9 @@ iframe, figure {
     max-width: 700px;
 }
 
+
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
+
 #caption {
     margin: auto;
     display: block;
@@ -231,8 +270,11 @@ iframe, figure {
     height: 150px;
 }
 
+
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+
+.modal-content,
+#caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -240,16 +282,26 @@ iframe, figure {
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)}
-    to {-webkit-transform:scale(1)}
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
 }
 
 @keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
+
 /* The Close Button */
+
 .close {
     position: absolute;
     top: 15px;
@@ -260,6 +312,10 @@ iframe, figure {
     transition: 0.3s;
 }
 
+h3 {
+    font-family: yrsa, 'serif';
+}
+
 .close:hover,
 .close:focus {
     color: #bbb;
@@ -267,23 +323,24 @@ iframe, figure {
     cursor: pointer;
 }
 
+
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+
+@media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
     }
 }
 
+
 /* End Modal stuff */
 
-
 .post-link .img-responsive {
-    transition: .3s ease-in-out all;
-    
+    transition: opacity .5s ease-in-out;
 }
 
 .img-responsive {
-/*    border-radius: 2%;*/
+    /*    border-radius: 2%;*/
 }
 
 .post-link .img-responsive:hover {
@@ -314,7 +371,7 @@ a:hover {
 .copyright p {
     font-size: 2rem;
     padding-left: 1.5rem;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .fa {
@@ -322,14 +379,24 @@ a:hover {
     transition: .3s linear all;
 }
 
-
 .navbar-right li a {
     color: #333 !important;
 }
 
 .navbar-right li a:hover {
-    color: #f25f25 !important;
+    background-color: #f25f25 !important;
+    color: white !important;
+    border-top-left-radius: .4em;
+    border-top-right-radius: .4em;
 }
+.navbar-right li .active {
+    background-color: #f25f25 !important;
+    color: white !important;
+    border-top-left-radius: .4em;
+    border-top-right-radius: .4em;
+}
+
+
 
 .navbar-nav .fa:hover {
     color: #f25f25;
@@ -345,7 +412,7 @@ div .posts {
 }
 
 .navbar-right {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #333;
     padding-top: 5px;
     margin-right: 1rem;
@@ -361,13 +428,11 @@ div .posts {
     padding-top: 15px;
     font-size: 3rem;
     text-transform: lowercase;
-    font-weight: 800;
     color: #333 !important;
 }
 
 .navbar-brand:hover {
     color: #f25f25 !important;
-    -webkit-animation: bounce 0.4s infinite alternate;
     overflow: hidden;
     animation-fill-mode: backwards;
 }
@@ -381,9 +446,7 @@ ul {
 }
 
 .navbar-right li:hover {
-    -webkit-animation: bounce 0.4s infinite alternate;
     overflow: hidden;
-    animation-fill-mode: backwards;
 }
 
 .nav-item:hover {
@@ -394,9 +457,28 @@ ul {
     margin-top: 40px;
 }
 
+
+.overlay-text {
+    margin: 2vw 20vw 3vw 20vw;
+    text-align: center;
+    font-size: 1.3rem;
+    opacity: 0;
+}
+.overlay-text:hover {
+    margin: 2vw 20vw 3vw 20vw;
+    text-align: center;
+    font-size: 1.3rem;
+    opacity: 1;
+}
+
+
 .copyright {
     text-transform: lowercase;
     font-weight: 300;
+}
+
+.navbar-header {
+    background-color: white !important;
 }
 
 @media screen and (max-width: 991px) {
@@ -408,8 +490,14 @@ ul {
 @media only screen and (min-width: 1440px) {
     /* styles for MacBook Pro-sized screens and larger */
     .fullpost div.container {
-        max-width: 970; 
+        max-width: 970;
     }
+}
+@media only screen and (min-width: 1200px) {
+    /* styles for MacBook Pro-sized screens and larger */
+    .about-container {
+    height: 70vh;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -426,17 +514,35 @@ ul {
         margin-top: 0;
         padding-top: 0;
     }
+    
+    .portfolio-item {
+            top: -160px !important;
+        margin-bottom: -60px; */
+    }
+    
+    .navbar-right li a:hover {
+        color: #f25f25 !important;
+        background-color: white !important;
+    }
+    
+    body {
+        padding-top: 0 !important;
+    }
     .header {
         margin-top: 5rem;
         text-shadow: 1px 1px #232F1F;
-/*        background: #4CA1AF;*/
+        /*        background: #4CA1AF;*/
         /* fallback for old browsers */
-/*        background: -webkit-linear-gradient(to left, #4CA1AF, #C4E0E5);*/
+        /*        background: -webkit-linear-gradient(to left, #4CA1AF, #C4E0E5);*/
         /* Chrome 10-25, Safari 5.1-6 */
-/*        background: linear-gradient(to left, #4CA1AF, #C4E0E5);*/
+        /*        background: linear-gradient(to left, #4CA1AF, #C4E0E5);*/
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
     .post {
         margin-top: 12rem;
     }
+}
+
+@media screen and (min-width: 767px) {
+    
 }

@@ -1,4 +1,7 @@
-<!-- Navigation -->
+--- 
+permalink: about 
+--- 
+{% include head.html %}
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -15,9 +18,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#featured" class="project-link"><span>projects</span></a></li>
                 <li><a href="/writing.html"><span>writing</span></a></li>
-                <li><a href="/about.html"><span>about me</span></a></li>
+                <li><a href="/about.html" class="active"><span>about me</span></a></li>
                 <li><a href="/resume.html"><span>résumé</span></a></li>
             </ul>
         </div>
@@ -25,3 +27,25 @@
     </div>
     <!-- /.container -->
 </nav>
+
+<div class="container about-container">
+
+    <!-- Portfolio Item Heading -->
+        <br>
+        <br>
+           <div class="row">
+            <div class="col-lg-3">
+            <img class="img-responsive img-circle about-pic" src="/img/book-profpic.png" alt="">
+
+        </div>
+        <div class="col-lg-9">
+            <h1 class="page-header">About</h1>
+            <br>
+            <p>I'm finishing my Master's degree in Computer-Human Interaction at Carnegie Mellon, and studied Linguistics and Russian at UC Santa Cruz. Most recently, I was Content Strategist at Pop Up Archive, where my role encompassed UX Design, Data Analytics, and Project Management. I love long reads and long podcast listens.</p>
+            <br>
+            <p>Say hello! Drop me a line at essaltz [at] gmail.com </p>
+        </div>
+
+    </div>
+    </div>
+{% include footer.html %}

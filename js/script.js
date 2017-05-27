@@ -34,25 +34,22 @@ $("a").on('click', function (event) {
     } // End if
 });
 
+// Add smooth scrolling to all links
+$(".project-link").on('click', function (event) {
 
-// Get the modal
-var modal = document.getElementById('myModal');
+    // Make sure this.hash has a value before overriding default behavior
+    $(this).addClass('active');
+    
+});
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    console.log("Click")
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
+$(".navbar-toggle").on('click', function (event) {
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+    // Make sure this.hash has a value before overriding default behavior
+    this.addClass('active');
+    
+});
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+
+
+
+
