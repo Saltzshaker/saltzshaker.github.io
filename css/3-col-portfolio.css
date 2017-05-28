@@ -103,7 +103,7 @@ p,
     font-size: 3rem;
     text-transform: lowercase;
     font-style: italic;
-    color: #ccc !important;
+    color: white;
 }
 
 .header h1 {
@@ -147,25 +147,17 @@ h1:hover {
 }
 
 .header {
-    background: url(/img/aeriel-hero-dark.png) no-repeat center center fixed;
+    background: url(/img/aeriel-hero-dark.png) no-repeat fixed;
     background-size: cover;
-    text-shadow: 2px 2px #232F1F;
+/*    text-shadow: 2px 2px #232F1F;*/
     text-align: center;
     margin: 0 -9999rem;
-    padding: 20rem 9999rem;
+    padding: 30vh 9999rem;
     margin-top: -11px;
     height: 100vh;
 }
 
-.header-writing {
-    background: url(/img/sky-hero.png) no-repeat center center fixed;
-    background-size: cover;
-    text-shadow: 2px 2px #232F1F;
-    text-align: center;
-    margin: 0 -9999rem;
-    padding: 8rem 9999rem;
-    margin-top: -11px;
-}
+
 
 .download {
     color: #333;
