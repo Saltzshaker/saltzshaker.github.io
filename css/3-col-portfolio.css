@@ -12,7 +12,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500');
-@import url('https://fonts.googleapis.com/css?family=Yrsa:300');
+@import url('https://fonts.googleapis.com/css?family=Yrsa:300,500');
 .center {
     text-align: center;
     margin: 0 auto;
@@ -29,8 +29,13 @@ article {
 
 body {
     padding-top: 70px;
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: 'Fira Sans', sans-serif;
+/*     Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    
+}
+p, li, body {
+    font-family: 'yrsa', serif;
+    font-weight: 300;
+    font-size: 1.9rem;
 }
 
 .post hr {
@@ -50,19 +55,23 @@ body {
     border-radius: 50%;
 }
 
+.projects h2 {
+    padding-left: 0;
+}
+/*
+h2 {
+    padding-left: 15px;
+}
+*/
+
 p {
     margin: 0 0 .5rem;
-}
-
-p,
-.overview li {
-    font-size: 1.3em;
-    font-family: 'Yrsa', serif;
 }
 
 .entry {
     font-size: 1.3em;
     font-family: 'Yrsa', serif;
+    font-weight: 300;
 }
 
 .overview h3:first-child {
@@ -70,7 +79,7 @@ p,
 }
 
 .highlight {
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .inline {
@@ -101,6 +110,7 @@ p,
 
 .header h3 {
     font-size: 3rem;
+    font-family: 'yrsa', serif;
     text-transform: lowercase;
     font-style: italic;
     color: white;
@@ -115,6 +125,7 @@ h2 {
     font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .smaller {
@@ -135,6 +146,7 @@ h2 {
 h1 {
     font-weight: 300;
     font-size: 4rem;
+    font-family: 'Fira Sans', 'Arial', sans-serif;
 }
 
 h1:hover {
@@ -308,7 +320,9 @@ figure {
 }
 
 h3 {
-    font-family: yrsa, 'serif';
+    font-family: 'Fira Sans', 'sans-serif';
+    font-weight: 300;
+    color: gray;
 }
 
 .close:hover,
@@ -327,6 +341,12 @@ h3 {
     }
 }
 
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
 
 /* End Modal stuff */
 
@@ -339,6 +359,11 @@ h3 {
 
 .img-responsive {
     /*    border-radius: 2%;*/
+    margin-bottom: 40px;
+}
+
+.projects .img-responsive {
+    margin-bottom: 0;
 }
 
 .post-link .img-responsive:hover {
@@ -442,9 +467,11 @@ a:hover {
     color: #f25f25;
 }
 
+/*
 div .posts {
     margin-top: 6rem;
 }
+*/
 
 .page-header {
     margin-top: 20px;
@@ -452,10 +479,14 @@ div .posts {
 }
 
 .navbar-right {
-    font-size: 2rem;
     color: #333;
     padding-top: 5px;
     margin-right: 1rem;
+}
+.navbar-right span {
+    font-size: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
 }
 
 .navbar-inverse {
@@ -468,6 +499,8 @@ div .posts {
     padding-top: 15px;
     font-size: 3rem;
     text-transform: lowercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
     color: #333 !important;
 }
 
@@ -479,6 +512,7 @@ div .posts {
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .nav-item {
@@ -493,9 +527,11 @@ ul {
     color: #f25f25;
 }
 
+/*
 .projects {
     margin-top: 40px;
 }
+*/
 
 .overlay-text {
     margin: 2vw 20vw 3vw 20vw;
@@ -589,6 +625,10 @@ ul {
     .post {
         margin-top: 12rem;
     }
+}
+
+.overview h2 {
+    padding-left: 0;
 }
 
 @media screen and (min-width: 767px) {

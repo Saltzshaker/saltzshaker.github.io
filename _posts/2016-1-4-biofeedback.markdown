@@ -8,6 +8,7 @@ description: "Pilot study exploring the sharing of biofeedback information throu
 categories: jekyll update
 ---
 
+{% include post-nav.html %}
 <div class="container post">
 
         <!-- Portfolio Item Heading -->
@@ -51,7 +52,6 @@ categories: jekyll update
                 <img src="/img/ucre/speeddate.png" alt="Speed-dating story board" class="img-responsive">
             </div>
         </div>
-
 
 
 

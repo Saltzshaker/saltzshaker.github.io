@@ -3,7 +3,7 @@ layout: post
 title:  "Audiosear.ch Podcast Finder"
 banner_img: "podfinder-700x400.png"
 date:   2016-01-08 15:33:53 -0400
-permalink: podfinder
+permalink: podfindersfdf
 description: "Podcast recommendation and show search design for Audiosear.ch"
 categories: jekyll update
 tag: "Wireframing, Design"
