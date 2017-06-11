@@ -3,6 +3,7 @@ permalink: about
 --- 
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -10,15 +11,18 @@ permalink: about
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">Emily Saltz</a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="/img/fav-32.png" class="img-responsive" alt=""></a>
         </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/writing"><span>writing</span></a></li>
-                <li><a href="/about" class="active"><span>about me</span></a></li>
-                <li><a href="/resume"><span>résumé</span></a></li>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="/about" class="active"><span>about</span></a></li>
+                <li><a href="/resume"  class="project-link"><span>résumé</span></a></li>
+                <li><a href="/writing"  class="project-link"><span>writing</span></a></li>
             </ul>
-    </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    <!-- /.container -->
 </nav>
 
 <div class="container about-container">

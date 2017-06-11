@@ -29,11 +29,12 @@ permalink: copilot
 
             <div class="col-md-4 overview">
                 <h3>Overview</h3>
-                <p>Asthma management for children: Navigate to clear airways together.</p>
+                <p>Asthma management for children: Navigate to clear airways together. Worked with a team of six people to prototype a data-driven solution to help children and their care networks manage asthma systems.</p>
                 <h3>Project Details</h3>
-
+                <h2>Role</h2> 
+                   <p>UX Research Lead</p>
                 <h2>Methods</h2> 
-                   <p>Service Blueprinting, Stakeholder Mapping, Value Flows, Data Modelling, Speeddating, Codesign</p>
+                   <p>Service Blueprinting, Stakeholder Mapping, Value Flows, Data Modeling, Speeddating, Codesign</p>
                     <h2>Tools</h2><p> Sketch, Adobe Illustrator, After Effects, Tableau, Mural</p>
 
             </div>
