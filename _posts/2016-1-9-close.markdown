@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Close (but not too close)"
 banner_img: "close-700x400.png"
 date:   2016-01-09 15:33:53 -0400
@@ -8,6 +7,7 @@ description: "An interactive installation exploring the boundaries of personal &
 categories: jekyll update
 tag: "Interactive art, Creative coding"
 ---
+{% include post-nav.html %}
 <div class="fullpost">
 <div class="container post">
 
@@ -16,9 +16,6 @@ tag: "Interactive art, Creative coding"
             <div class="col-lg-12">
                 <h1 class="page-header">
                     Close (but not too close) <br>
-                    <small>
-                        Negotiating personal space with a virtual figure
-                    </small>
 
                 </h1>
             </div>

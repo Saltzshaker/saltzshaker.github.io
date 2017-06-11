@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Into the Mode"
 banner_img: "intothemode-700x400.png"
 date:   2016-01-03 15:33:53 -0400
@@ -8,6 +7,7 @@ description: "An alternate history of text-editing: a simulation based on Xerox 
 categories: jekyll update
 tags: "Interaction design, Web development"
 ---
+{% include post-nav.html %}
 <div class="fullpost">
 <div class="container post">
 
@@ -15,8 +15,6 @@ tags: "Interaction design, Web development"
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header"> Into the Mode
-                   <br>
-                    <small>A simulation of mode-based text editors from computer history</small>
                 </h1>
             </div>
         </div>

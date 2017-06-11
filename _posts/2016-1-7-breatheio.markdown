@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "BreatheIO Bot"
 banner_img: "breathio-700x400.png"
 date:   2016-01-07 15:33:53 -0400
@@ -8,6 +7,7 @@ description: "A Slack bot who guides you through custom breathing exercises"
 categories: jekyll update
 tag: "Conversational UI design, Chatbot development"
 ---
+{% include post-nav.html %}
 <div class="fullpost">
 <div class="container post">
 
@@ -15,9 +15,7 @@ tag: "Conversational UI design, Chatbot development"
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    BreatheIO Bot <br>
-                    <small>A chatbot guide to breathing exercises in Slack</small>
-
+                    BreatheIO Bot
                 </h1>
             </div>
         </div>

@@ -38,6 +38,7 @@ $("a").on('click', function (event) {
 $(".project-link").on('click', function (event) {
 
     // Make sure this.hash has a value before overriding default behavior
+    $("a.active").removeClass("active");
     $(this).addClass('active');
     $('.navbar-collapse').removeClass('in');
     
