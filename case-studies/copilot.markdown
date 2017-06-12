@@ -11,7 +11,7 @@ permalink: copilot
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    CoPilot <br />
+                    CoPilot for Philips Healthcare<br />
 <!--                    <small>Research and wireframes toward an intuitive podcast show search UI</small>-->
 
                 </h1>
