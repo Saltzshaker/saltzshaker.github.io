@@ -252,10 +252,13 @@ figure {
 }
 
 ::selection {
-  background: #67FFBA; /* WebKit/Blink Browsers */
+    background: #67FFBA;
+    /* WebKit/Blink Browsers */
 }
+
 ::-moz-selection {
-  background: #67FFBA; /* Gecko Browsers */
+    background: #67FFBA;
+    /* Gecko Browsers */
 }
 
 
@@ -310,19 +313,19 @@ figure {
 
 @-webkit-keyframes zoom {
     from {
-        -webkit-transform: scale(0)
+        -webkit-transform: scale(0);
     }
     to {
-        -webkit-transform: scale(1)
+        -webkit-transform: scale(1);
     }
 }
 
 @keyframes zoom {
     from {
-        transform: scale(0)
+        transform: scale(0);
     }
     to {
-        transform: scale(1)
+        transform: scale(1);
     }
 }
 
@@ -454,6 +457,7 @@ a:hover {
 .navbar-right li:hover > a span {
     color: white !important;
 }
+
 .navbar-left li:hover > a span {
     color: white !important;
 }
@@ -463,14 +467,17 @@ a:hover {
     border-top-left-radius: .4em;
     border-top-right-radius: .4em;
 }
+
 .navbar-right li:hover {
     background-color: #f25f25 !important;
     border-top-left-radius: .4em;
     border-top-right-radius: .4em;
 }
+
 .navbar-left li a span:hover {
     color: white !important;
 }
+
 .navbar-right li span:hover {
     color: white !important;
 }
@@ -530,6 +537,52 @@ a:hover {
     background-color: #fcfcfc !important;
 }
 
+#squiggly:hover {
+
+/*
+transform: skewX(10deg);
+transform: skewY(10deg);
+*/
+    animation: mymove 1s infinite linear;
+    -webkit-animation: mymove .3s infinite ease-in-out;
+    animation-direction: alternate;
+}
+
+
+/* Standard syntax */ 
+@-webkit-keyframes mymove {
+    0% {
+        transform: skewX(6deg);
+        transform: skewY(7deg);
+    }
+    50% {
+        transform: skewX(2deg);
+        transform: skewY(-5deg);
+    }
+    80% {
+        transform: skewX(10deg);
+        transform: skewY(8deg);
+    }
+    100% {
+        transform: skewX(-11deg);
+        transform: skewY(-13deg);
+    }
+}
+
+
+/* Standard syntax */ 
+@keyframes mymove {
+    
+    0% {
+        transform: skewX(10deg);
+        transform: skewY(10deg);
+    }
+    100% {
+        transform: skewX(-10deg);
+        transform: skewY(-10deg);
+    }
+}
+
 
 /*
 div .posts {
@@ -573,6 +626,13 @@ div .posts {
 
 .navbar-brand:hover {
     color: #f25f25;
+    -webkit-animation-name: squash;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-perspective: 500;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition-property: transform;
+    /*    -webkit-transition-duration: 0.5s;*/
     overflow: hidden;
     animation-fill-mode: backwards;
 }
@@ -721,3 +781,6 @@ ul {
         border-top-right-radius: .4em;
     }
 }
+
+
+  
