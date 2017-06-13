@@ -58,7 +58,7 @@ tag: "Conversational UI design, Chatbot development"
                <img src="/img/breatheio/timer.png" alt="chill gif" class="img-responsive even-smaller inline">
   <img src="/img/breatheio/whew.png" alt="chill gif" class="img-responsive even-smaller inline">
                 <h3>Media & Documentation</h3>
-                <p>Breathing counter in action</p>
+                <p>Breathing counter in action (Note: Slack generates automatic timeout notifications for slash commands that last multiple seconds)</p>
                 <img src="/img/breatheio/counter.gif" alt="chill gif" class="img-responsive smaller">
                 <p>Chill gif in action</p>
                 <img src="/img/breatheio/chillgif.gif" alt="chill gif" class="img-responsive lil-smaller">
