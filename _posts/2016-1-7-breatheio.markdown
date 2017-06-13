@@ -55,8 +55,8 @@ tag: "Conversational UI design, Chatbot development"
 <p>If BreatheIO bot were a person, they would be a Hawaiian surfer and monk, combining the laid-back humor of a beach bum with the thoughtful serenity of a theologian. His personality is expressed whenever you launch into a new breath with the “new breath” trigger word by saying “Need a breather? That's what I'm here for” and showing a levitating sock monkey. He is helpful without being pushy. When you’ve completed a breath, he says “Whew, that felt good. Type '/breathe' whenever you want to take another breather with me!” — encouraging, informational, and colloquial.</p>
 
   <img src="/img/breatheio/breather.png" alt="chill gif" class="img-responsive even-smaller inline">
-  <img src="/img/breatheio/whew.png" alt="chill gif" class="img-responsive even-smaller inline">
                <img src="/img/breatheio/timer.png" alt="chill gif" class="img-responsive even-smaller inline">
+  <img src="/img/breatheio/whew.png" alt="chill gif" class="img-responsive even-smaller inline">
                 <h3>Media & Documentation</h3>
                 <p>Breathing counter in action</p>
                 <img src="/img/breatheio/counter.gif" alt="chill gif" class="img-responsive smaller">
