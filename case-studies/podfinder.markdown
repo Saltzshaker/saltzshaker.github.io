@@ -19,7 +19,7 @@ permalink: podfinder
         <!-- /.row -->
 
         <!-- Portfolio Item Row -->
-        <div class="row">
+        <div class="row project-top">
 
             <div class="col-md-8">
                 <img class="img-responsive" src="/img/audiosearch-screen.png" alt="" />
@@ -52,56 +52,55 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
         </div>
 -->
 
-        <div class="row">
-               <div class="col-sm-12">
-                <h3>Wireframes</h3>
-            </div>
-        <div class="row">
-            <div class="col-lg-3">
-              
-                <img src="/img/show-finder/mobile.png" alt="Persona" class="img-responsive" />
-            </div>
-            <div class="col-sm-9">
-                <h2>Responsive Web Design</h2>
 
-                <p>Design included mockups of mobile screens, and a desktop filtering flow.</p>
+        <div class="row">
+                <div class="col-sm-12">
+                <h3>Community Codesign</h3>
+                </div>
+            <div class="col-sm-8">
+                <p>At Pop Up Archive, we regularly tested features with the podcast and radio community in the Bay Area. In addition to usability testing, we occasionally leveraged the community's specialized knowledge. For example, while building the Audiosear.ch podcast API from the ground up, our team wanted to know: what are the most meaningful categories for audio stories? </p>
+                <p>To understand this, we brought in radio folks for a card-sort jam, using both used open and closed card-sorting to determine the top-level categories for podcasts to see how if at all they differed from the default iTunes categories. We printed out podcast covers and descriptions and asked participants to sort them into these categories, or make new ones when necessary. Indeed, we found several emergent categories over multiple users, like "Storytelling," which weren't represented in iTunes. </p>
+            </div>
+            <div class="col-sm-4 project-top">
+                <img src="/img/show-finder/ana-cardsort.png" alt="Persona" class="img-responsive" />
+            </div>
+        </div>
+            <div class="row">
+               <div class="col-sm-8">
+                <h3>Wireframes</h3>
+                <h2>Responsive Web Design</h2>
+                <p>For show search, I designed mockups of mobile screens, and a desktop filtering flow which were passed off to an engineer, who I worked with to implement the feature as intended.</p>
+                </div>
+                </div>
+
+         
                 <div class="row">
-                    <br>
-                     <div class="col-sm-6">
+            <div class="col-sm-4">
+                <img src="/img/show-finder/pixelmap2.png" alt="Persona" class="img-responsive" />
+            </div>
+            <div class="col-sm-4">
+                <img src="/img/show-finder/pixelmap3.png" alt="Persona" class="img-responsive" />
+            </div>
+            <div class="col-sm-2">
+                    <img src="/img/show-finder/mobile.png" alt="Persona" class="img-responsive" />
+                    </div>
+        </div>
+             <div class="row">
+                   
+                             <div class="col-sm-4">
                       <img src="/img/show-finder/pixelmap4.png" alt="Persona" class="img-responsive" />  
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <img src="/img/show-finder/pixelmap1.png" alt="Persona" class="img-responsive" />
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="/img/show-finder/pixelmap2.png" alt="Persona" class="img-responsive" />
-            </div>
-            <div class="col-sm-6">
-                <img src="/img/show-finder/pixelmap3.png" alt="Persona" class="img-responsive" />
-            </div>
-        </div>
-        <div class="row">
-                <div class="col-sm-12">
-                <h3>Card-sort exercise</h3>
-                </div>
-            <div class="col-sm-6">
-                <img src="/img/show-finder/ana-cardsort.png" alt="Persona" class="img-responsive" />
-            </div>
-            <div class="col-sm-6">
-                We used open and closed card-sorting to determine the top-level categories for podcasts, and to see how if at all they differed from iTunes categories.
-            </div>
-        </div>
+
         <div class="row">
                 <div class="col-sm-12">
                 <h3>Documentation</h3>
                 </div>
-            <div class="col-sm-12">
-                <p>I wrote blog entries for the release of each feature.</p>
+            <div class="col-sm-8">
+                <p>In addition to the show search feature, wrote posts for Pop Up Archive for the release of each feature I worked on. I was closely involved in conversations from conceptualization to implementation with the engineering team. Each feature was linked to a business hypothesis. I reported back to the team weekly about the Google Analytics, Mixpanel, and Optimizely A/B test performance of these features, leading to key business decisions.</p>
                 <div class="indent" style="padding-left: 40px;">
                 <h2>PodLikeThat</h2> 
                 <a href="http://blog.popuparchive.com/a-new-tool-for-podcast-recommendation/">A new tool for podcast recommendation: Find new podcasts with PodLikeThat</a>

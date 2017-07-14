@@ -11,7 +11,17 @@
 //  }
 //});
 
+
+$(function() {
+		$('.pop').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');   
+		});		
+});
+
 // Add smooth scrolling to all links
+
+
 $("a").on('click', function (event) {
 
     // Make sure this.hash has a value before overriding default behavior

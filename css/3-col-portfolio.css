@@ -32,6 +32,7 @@ body {
     /*     Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+
 p,
 li,
 body {
@@ -69,7 +70,7 @@ h2 {
 */
 
 p {
-    margin: 0 0 .5rem;
+    margin: 0 0 1rem;
 }
 
 .entry {
@@ -84,6 +85,17 @@ p {
 
 .highlight {
     font-weight: 500;
+}
+
+.overview-hr {
+    border-bottom: 6px solid #eee !important;
+    width: 200%;
+    margin-left: -200px;
+}
+
+figcaption {
+    margin-top: -30px;
+    font-size: .8em;
 }
 
 .inline {
@@ -188,7 +200,7 @@ h1:hover {
     text-transform: uppercase;
     color: #333;
     font-size: 2.5rem;
-    transition: .5s ease-in-out all;
+    transition: .2s ease-in-out all;
 }
 
 .post-link:hover {
@@ -213,62 +225,15 @@ figure {
 }
 
 
-/* Style the Image Used to Trigger the Modal */
-
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+.pop:hover {
+    opacity: .6;
 }
 
-#myImg:hover {
-    opacity: 0.7;
+.hover-img:hover {
+    opacity: .6;
 }
-
-
-/* The Modal (background) */
-
-.modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
-}
-
-::selection {
-    background: #67FFBA;
-    /* WebKit/Blink Browsers */
-}
-
-::-moz-selection {
-    background: #67FFBA;
-    /* Gecko Browsers */
-}
-
-
-/* Modal Content (Image) */
-
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+.pop {
+    transition: .2s ease-in-out all;
 }
 
 .active-mobile {
@@ -311,6 +276,15 @@ figure {
     animation-duration: 0.6s;
 }
 
+.modal-dialog{
+    position: relative;
+    display: table; /* This is important */ 
+    overflow-y: auto;    
+    overflow-x: auto;
+    width: auto;
+    min-width: 300px;   
+}
+
 @-webkit-keyframes zoom {
     from {
         -webkit-transform: scale(0);
@@ -330,22 +304,13 @@ figure {
 }
 
 
-/* The Close Button */
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
 
 h3 {
     font-family: 'Fira Sans', 'sans-serif';
     font-weight: 300;
     color: gray;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .close:hover,
@@ -364,6 +329,25 @@ h3 {
     }
 }
 
+.project-top img {
+    margin-top: 0;
+}
+
+.img-wrapper img {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.quote {
+    border-left: 3px #f25f25 solid;
+    margin-top: 40px;
+    padding-left: 20px !important;
+}
+
+.quote-text {
+    font-size: 1.5em;
+    font-style: italic;
+}
 .newspaper {
     -webkit-column-count: 2;
     /* Chrome, Safari, Opera */
@@ -385,6 +369,7 @@ h3 {
 .img-responsive {
     /*    border-radius: 2%;*/
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .projects .img-responsive {
