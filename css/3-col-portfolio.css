@@ -404,13 +404,21 @@ footer {
 
 .short-header h3 {
     margin-top: 10px;
-    line-height: 1.4;
     font-size: 2.6rem;
 }
 
+h3 {
+    line-height: 1.4;
+}
 .short-header a {
     color: #f25f25;
 }
+
+h3 a {
+    color: #f25f25;
+}
+
+
 
 .short-header a:hover {
     color: #dfa188;
@@ -520,8 +528,12 @@ a:hover {
 .navbar,
 .navbar-brand {
     background-color: #fcfcfc !important;
+    
 }
 
+#squiggly {
+    margin: 0 !important;
+}
 #squiggly:hover {
 
 /*
