@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
             <div class="row">
                <div class="col-sm-8">
                 <h3>Wireframes</h3>
-                <h2>Responsive Web Design</h2>
+                <h2>Podcast Show Search</h2>
                 <p>For show search, I designed mockups of mobile screens, and a desktop filtering flow which were passed off to an engineer, who I worked with to implement the feature as intended.</p>
                 </div>
                 </div>
@@ -94,10 +94,44 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                         <img src="/img/show-finder/pixelmap1.png" alt="Persona" class="img-responsive" />
                     </div>
                 </div>
+             <div class="row">
+                   
+                             <div class="col-sm-8">
+                      <img src="/img/as-mocks/final-serch.png" alt="Persona" class="img-responsive" />  
+                    </div>
+                </div>
+                                           <div class="row">
 
+                                           <div class="col-sm-8">
+                        <img src="/img/as-mocks/smart-search.png" alt="Persona" class="img-responsive" />
+                    </div>
+                </div>
+                            <div class="row">
+               <div class="col-sm-8">
+                <h2>PodLikeThat</h2>
+                <p>After <a href="http://blog.popuparchive.com/breaking-down-the-podcast-recommendation-landscape/">surveying listeners about podcast discovery</a>, we heard one common complaint from listeners was that when it came to trying out new shows, it was hard to know where to start. While best of lists and curated recommendation sources abound, it takes time and work to wade through the picks and answer one simple question: what podcast should I listen to right now? PodLikeThat is a tool built using the Audiosear.ch API's "related" endpoint to answer that question.</p>
+                </div>
+                </div>
+        <div class="row">
+                <div class="col-sm-4">
+                    <img class="img-responsive" src="../img/as-mocks/wireframe.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-responsive" src="../img/as-mocks/podlikethat-desktop.png" alt="">
+                </div>
+        </div>
+                <div class="row">
+                <div class="col-sm-6">
+    <img class="img-responsive" src="../img/as-mocks/podlikethat-implemented.png" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="../img/as-mocks/podlikethat.png" alt="">
+                </div>
+        </div>
+       
         <div class="row">
                 <div class="col-sm-12">
-                <h3>Documentation</h3>
+                <h3>More Documentation</h3>
                 </div>
             <div class="col-sm-8">
                 <p>In addition to the show search feature, wrote posts for Pop Up Archive for the release of each feature I worked on. I was closely involved in conversations from conceptualization to implementation with the engineering team. Each feature was linked to a business hypothesis. I reported back to the team weekly about the Google Analytics, Mixpanel, and Optimizely A/B test performance of these features, leading to key business decisions.</p>
