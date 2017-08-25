@@ -32,7 +32,6 @@ body {
     /*     Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-
 p,
 li,
 body {
@@ -224,7 +223,6 @@ figure {
     border-radius: 0;
 }
 
-
 .pop:hover {
     opacity: .6;
 }
@@ -232,6 +230,7 @@ figure {
 .hover-img:hover {
     opacity: .6;
 }
+
 .pop {
     transition: .2s ease-in-out all;
 }
@@ -276,13 +275,14 @@ figure {
     animation-duration: 0.6s;
 }
 
-.modal-dialog{
+.modal-dialog {
     position: relative;
-    display: table; /* This is important */ 
-    overflow-y: auto;    
+    display: table;
+    /* This is important */
+    overflow-y: auto;
     overflow-x: auto;
     width: auto;
-    min-width: 300px;   
+    min-width: 300px;
 }
 
 @-webkit-keyframes zoom {
@@ -303,14 +303,16 @@ figure {
     }
 }
 
-
-
 h3 {
     font-family: 'Fira Sans', 'sans-serif';
     font-weight: 300;
     color: gray;
     margin-bottom: 20px;
     margin-top: 40px;
+}
+
+.post-cover {
+    margin-top: 0 !important;
 }
 
 .close:hover,
@@ -348,6 +350,7 @@ h3 {
     font-size: 1.5em;
     font-style: italic;
 }
+
 .newspaper {
     -webkit-column-count: 2;
     /* Chrome, Safari, Opera */
@@ -410,6 +413,7 @@ footer {
 h3 {
     line-height: 1.4;
 }
+
 .short-header a {
     color: #f25f25;
 }
@@ -417,8 +421,6 @@ h3 {
 h3 a {
     color: #f25f25;
 }
-
-
 
 .short-header a:hover {
     color: #dfa188;
@@ -528,15 +530,14 @@ a:hover {
 .navbar,
 .navbar-brand {
     background-color: #fcfcfc !important;
-    
 }
 
 #squiggly {
     margin: 0 !important;
 }
-#squiggly:hover {
 
-/*
+#squiggly:hover {
+    /*
 transform: skewX(10deg);
 transform: skewY(10deg);
 */
@@ -546,7 +547,8 @@ transform: skewY(10deg);
 }
 
 
-/* Standard syntax */ 
+/* Standard syntax */
+
 @-webkit-keyframes mymove {
     0% {
         transform: skewX(10deg);
@@ -559,9 +561,9 @@ transform: skewY(10deg);
 }
 
 
-/* Standard syntax */ 
+/* Standard syntax */
+
 @keyframes mymove {
-    
     0% {
         transform: skewX(10deg);
         transform: skewY(10deg);
@@ -696,11 +698,41 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
+
+    .navbar-left {
+        margin-top: 0 !important;
+        padding-top: 0px; 
+    }
+    .project-link:hover {
+        text-decoration: underline;
+        
+    }
+    
+    .navbar-collapse {
+     border-color: #fff; 
+    }
     .short-header {
         margin-top: 80px;
     }
+    
+    .navbar-left li:hover, .navbar-right li:hover {
+        background: #fcfcfc !important;
+        color: #333 !important;
+        text-decoration: underline;
+    }
+    .navbar-right-hide {
+        display: none;
+    }
+    
+    .navbar-right {
+        display: none;
+    }
+    
+    .navbar-right li:hover > a span, .navbar-left li:hover > a span {
+        color: #333 !important;
+        background-color: #fcfcfc;
+    }
     .navbar-brand {
-        background-color: #eee !important;
         margin-bottom: 10px;
     }
     .navbar-nav {
@@ -710,11 +742,12 @@ ul {
         border-bottom: #333 solid 1px;
     }
     .navbar-header {
-        background-color: #eee;
+        background-color: #fcfcfc;
     }
     .navbar-right {
         margin-top: 0;
         padding-top: 0;
+        margin-bottom: 0 !important;
     }
     .portfolio-item,
     .main-portfolio-item {
@@ -729,8 +762,16 @@ ul {
     }
 */
     .active {
-        background: white !important;
-        color: #f25f25 !important;
+        text-decoration: underline;
+        background: #fcfcfc;
+    }
+    .navbar-collapse
+    {
+         border-color: #f25f25 !important; 
+    }
+        
+    .active span {
+            color: #333 !important;
     }
     body {
         padding-top: 0 !important;
@@ -770,6 +811,3 @@ ul {
         border-top-right-radius: .4em;
     }
 }
-
-
-  
