@@ -2,7 +2,6 @@
 layout: default
 permalink: podfinder 
 --- 
-{% include head.html %}
 {% include post-nav.html %}
 
 <div class="container post">

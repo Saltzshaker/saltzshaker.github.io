@@ -15,7 +15,7 @@ tag: "Interactive art, Creative coding"
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Close (but not too close) <br>
+                    Close (but not too close)
 
                 </h1>
             </div>
@@ -27,7 +27,7 @@ tag: "Interactive art, Creative coding"
             <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="/img/close/close-750x500.png" alt="">
+                <img class="img-responsive post-cover" src="/img/close/close-750x500.png" alt="">
             </div>
 
             <div class="col-md-4 overview">

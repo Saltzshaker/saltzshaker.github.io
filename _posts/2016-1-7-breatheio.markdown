@@ -26,7 +26,7 @@ tag: "Conversational UI design, Chatbot development"
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="/img/breatheio/robo-750x500.png" alt="">
+                <img class="img-responsive post-cover" src="/img/breatheio/robo-750x500.png" alt="">
             </div>
 
             <div class="col-md-4 overview">
