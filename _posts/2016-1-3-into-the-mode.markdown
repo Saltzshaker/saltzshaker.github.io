@@ -64,7 +64,7 @@ tags: "Interaction design, Web development"
                 <p>3. Move Mode</p>
                 <img src="/img/intothemode/modal-move2.gif" alt="Move" class="img-responsive smaller">
                 <h3>Demo</h3>
-                <p>Try out the <a href="WYSIWYG">live demo</a> for yourself to feel renewed gratitude for the world of WYSIWYG editors.</p>
+                <p>Try out the <a href="modal">live demo</a> for yourself to feel renewed gratitude for the world of WYSIWYG editors.</p>
             </div>
         </div>
         </div>
