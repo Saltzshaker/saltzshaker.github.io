@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                <div class="col-sm-8">
                 <h3>Wireframes</h3>
                 <h2>Podcast Show Search</h2>
-                <p>For show search, I designed mockups of mobile screens, and a desktop filtering flow which were passed off to an engineer, who I worked with to implement the feature as intended.</p>
+                <p>For show search, I designed mockups of mobile screens, and a desktop filtering flow which were passed off to an engineer, who I worked with to implement them.</p>
                 </div>
                 </div>
 
