@@ -501,6 +501,7 @@ h3 {
    color: gray;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: .8em;
 }
 
 .short-header a {
