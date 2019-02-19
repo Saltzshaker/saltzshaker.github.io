@@ -498,8 +498,8 @@ h3 {
 }
 
 h3 {
-   color: black;
-    font-size: .8em; 
+   color: gray;
+    text-transform: uppercase;
 }
 
 .short-header a {
