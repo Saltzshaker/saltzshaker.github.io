@@ -788,6 +788,10 @@ ul {
     .navbar-nav ul li::after {
         border-bottom: #333 solid 1px;
     }
+    
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #f5f5f5;
+    }
     .navbar-header {
 /*        background-color: none;*/
     }
