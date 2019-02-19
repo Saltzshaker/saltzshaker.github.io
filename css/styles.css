@@ -70,8 +70,9 @@ h2 {
 }
 
 h3 {
-    font-weight: 300;
+    font-weight: 600;
     color: gray;
+    text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 40px;
 }
