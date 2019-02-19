@@ -500,6 +500,7 @@ h3 {
 h3 {
    color: gray;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .short-header a {
