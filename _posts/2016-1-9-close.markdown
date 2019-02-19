@@ -1,13 +1,13 @@
 ---
 title:  "Close (but not too close)"
-banner_img: "close-700x400.png"
+image: img/close-700x400.png
 date:   2016-01-09 15:33:53 -0400
 permalink: close
 description: "An interactive installation exploring the boundaries of personal & technological space"
 categories: jekyll update
 tag: "Interactive art, Creative coding"
 ---
-{% include post-nav.html %}
+{% include nav.html %}
 <div class="fullpost">
 <div class="container post">
 

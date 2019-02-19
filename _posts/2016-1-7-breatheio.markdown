@@ -1,13 +1,13 @@
 ---
 title:  "BreatheIO Bot"
-banner_img: "breathio-700x400.png"
+image: img/breatheio/robo-750x500.png
 date:   2016-01-07 15:33:53 -0400
 permalink: breathe-io
 description: "A Slack bot who guides you through custom breathing exercises"
 categories: jekyll update
 tag: "Conversational UI design, Chatbot development"
 ---
-{% include post-nav.html %}
+{% include nav.html %}
 <div class="fullpost">
 <div class="container post">
 

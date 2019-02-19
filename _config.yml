@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Emily Saltz UX Designer Portfolio
+title: emily saltz 
 email: essaltz@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Emily Saltz is a UX Researcher and Interaction Designer. Currently, she's a Master's student in Human-Computer Interaction at Carnegie Mellon University. Previously, she was helping to make sound searchable as Head of Content Strategy at Pop Up Archive. 
+  Emily is an interaction designer, user researcher, creative technologist, amateur linguist, and reckless collector of job descriptors. She thinks a lot about natural language processing, and how to make digital infrastructure more accessible, humane, and fun. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: saltzshaker

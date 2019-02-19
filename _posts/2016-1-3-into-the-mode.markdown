@@ -3,11 +3,12 @@ title:  "Into the Mode"
 banner_img: "intothemode-700x400.png"
 date:   2016-01-03 15:33:53 -0400
 permalink: into-the-mode
-description: "An alternate history of text-editing: a simulation based on Xerox Parc-era modal text editing"
+subtitle: "An alternate history of text-editing: a simulation based on Xerox Parc-era modal text editing"
+image: img/intothemode/modal-move2.gif
 categories: jekyll update
 tags: "Interaction design, Web development"
 ---
-{% include post-nav.html %}
+{% include nav.html %}
 <div class="fullpost">
 <div class="container post">
 
