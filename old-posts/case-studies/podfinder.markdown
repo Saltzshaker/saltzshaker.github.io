@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                <div class="col-sm-8">
                 <h3>Wireframes</h3>
                 <h2>Podcast Show Search</h2>
-                <p>For show search, I designed mockups of mobile screens, and a desktop filtering flow which were passed off to an engineer, who I worked with to implement the feature as intended.</p>
+                <p>For show search, I designed mockups of mobile screens, and a desktop filtering flow which were passed off to an engineer, who I worked with to implement them.</p>
                 </div>
                 </div>
 
@@ -128,25 +128,6 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                 </div>
         </div>
        
-        <div class="row">
-                <div class="col-sm-12">
-                <h3>More Documentation</h3>
-                </div>
-            <div class="col-sm-8">
-                <p>In addition to the show search feature, wrote posts for Pop Up Archive for the release of each feature I worked on. I was closely involved in conversations from conceptualization to implementation with the engineering team. Each feature was linked to a business hypothesis. I reported back to the team weekly about the Google Analytics, Mixpanel, and Optimizely A/B test performance of these features, leading to key business decisions.</p>
-                <div class="indent" style="padding-left: 40px;">
-                <h2>PodLikeThat</h2> 
-                <a href="http://blog.popuparchive.com/a-new-tool-for-podcast-recommendation/">A new tool for podcast recommendation: Find new podcasts with PodLikeThat</a>
-                <h2>Pod-A-Day</h2> 
-                <a href="http://blog.popuparchive.com/podcast-discovery-one-hand-picked-podcast-at-a-time/">Podcast discovery: one hand-picked podcast at a time. Get daily podcast picks from tastemakers!</a>
-                
-                <h2>Tastemaker Picks</h2> 
-                <a href="http://blog.popuparchive.com/what-tastemakers-are-listening-to-podcasts-hand-picked-by-people/">What tastemakers are listening to: Find podcast recommendations from people you trust</a>
-                <h2>Show Search</h2>
-                <a href="http://blog.popuparchive.com/927/">New ways to slice and dice podcasts: Audiosear.ch Podcast Finder</a>
-                </div>
-            </div>
-
-        </div>
+   
 </div>
 
