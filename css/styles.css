@@ -10,6 +10,10 @@
 
 /*text*/
 
+.vsc-initialized, .navbar {
+    background-color: #eee !important;
+}
+
 p,
 li,
 body {
