@@ -125,13 +125,16 @@ article:hover a {
 
 .work a {
     color: black;
-    border-bottom: solid 3px #9a25f240;
+/*    border-bottom: solid 3px #9a25f240;*/
+    box-shadow: inset 0 -6px 0 #9a25f240;
+    transition: ease-in .1s all;
 }
 
 .work a:hover {
     color: #f25a4c;
     border-bottom: none;
-    background-color: #9a25f240;
+/*    background-color: #9a25f240;*/
+    box-shadow: inset 0 -22px 0 #9a25f240;
 
     
 }
@@ -391,6 +394,10 @@ figure {
 @media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
+    }
+    
+    .page-header {
+        margin-top: 60px;
     }
     
     .subheading {
