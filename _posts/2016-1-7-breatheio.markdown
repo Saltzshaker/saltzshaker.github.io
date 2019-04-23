@@ -34,7 +34,6 @@ tag: "Conversational UI design, Chatbot development"
                 <p>BreatheIO is a simple Slack bot for breathing exercises. BreatheIO helps incorporate good mental health habits into the workplace in a playful way.</p>
                 <h3>Project Details</h3>
 
-                    <p><span class="highlight">Timeline:</span> Three weeks</p>
                     <p><span class="highlight">Methods:</span> Experience Prototyping, Empathy Maps, Data Modeling</p>
                     <p><span class="highlight">Tools:</span> Slack API, Giphy API, Ruby (Sinatra framework), Postgres/Sqlite</p>
             </div>
