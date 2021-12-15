@@ -16,7 +16,7 @@
 title: emily saltz 
 email: essaltz@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I'm Emily. I'm a UX researcher and strategist specializing in AI and media. I work with teams to unearth actionable user insights, using creative mixed methods to drive product decisions.
+  Hi, I'm Emily. I'm a UX researcher and strategist specializing in AI and media. I thinks a lot about how to make digital infrastructure more humane, accessible, and fun.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: saltzshaker
