@@ -32,6 +32,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 # Apply header to all pages
 defaults:

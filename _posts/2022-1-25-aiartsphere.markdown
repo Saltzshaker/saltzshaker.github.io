@@ -1,0 +1,85 @@
+---
+title:  "Close (but not too close)"
+image: img/close-700x400.png
+date:   2016-01-09 15:33:53 -0400
+permalink: close
+description: "An interactive installation exploring the boundaries of personal & technological space"
+categories: jekyll update
+tag: "Interactive art, Creative coding"
+---
+{% include nav.html %}
+<div class="fullpost">
+<div class="container post">
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    AI Art Sphere
+
+                </h1>
+            </div>
+        </div>
+        <hr>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+            <div class="row">
+
+            <div class="col-md-8">
+                <img class="img-responsive post-cover" src="/img/close/close-750x500.png" alt="">
+            </div>
+
+            <div class="col-md-4 overview">
+                <h3>Overview</h3>
+                <p>Close (but not too close) explores the boundaries of personal and technological space. The viewer’s relationship with the projected woman changes depending on their proximity to her, leading them to work with her to find just the right distance for comfort.</p>
+                    
+                <h3>Project Details</h3>
+                    <p><span class="highlight">Team:</span> Jess Medenbach, Emily Saltz, Irene Alvarado, Caroline Hermans</p>
+                    <p><span class="highlight">Tools:</span> Max MSP, Kinect, Processing, Video Projection</p>
+
+            </div>
+
+        </div>
+        <!-- Portfolio Item Detail -->
+        <div class="post-description">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Technology</h2>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <img src="/img/close/schematic.png" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-lg-4">
+                    <p>A Kinect is used to track the viewer’s distance to the video projected on a sheet. The OSC distance values are divided into four ranges, each range triggering a different sets of video clips and glitch effects to play in a Processing sketch.</p> <p>The OSC distance ranges are also sent to Max MSP, which triggers one of three sounds to play.</p>
+                    </div>
+                </div>
+                <h2>Design</h2>
+                <p>We planned four distinct states for interaction: start, too far, close (aka "just right"), and too close.</p>
+                <img src="/img/close/states" class="img-responsive" alt="User experience map">
+                <h2>Experience</h2>
+                <p>To start, a single viewer enters an enclosed space and is met by a figure of a woman in a black dress. From a distance, she’s uncomfortable, looking away distractedly over a soundtrack of choppy cell phone interference. Walking forward, the viewer’s relationship with the woman changes. As you walk closer, she directs her gaze towards you, and beautiful music plays. But walk further and the viewer crosses into the “too close” territory. The woman glitches, feedback sounds echo, and she visibly withdraws. Clearly, she wishes you had stayed just a bit further away.</p>
+                <div class="row">
+                    <div class="col-lg-6">
+                       <figure class="figure">
+                            <img src="/img/close/justright" class="img-responsive" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">The "just right" region</figcaption>
+                        </figure>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <figure class="figure">
+                            <img src="/img/close/far" class="img-responsive" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption">The "too far" region</figcaption>
+                        </figure>
+
+                    </div>
+                </div>  
+                <h2>Video of the experience</h2>              
+               <iframe src="https://player.vimeo.com/video/183056679" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+               
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>    
