@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
+  <link rel="shortcut icon" type="image/png" href="/img/2025%20redo/esfavicon.png">
   <style>
     @font-face {
       font-family: 'Super Basic';
@@ -147,7 +148,7 @@
       z-index: 10;
       animation: riseUp 2s ease-out forwards;
       animation-delay: 0.5s;
-      cursor: pointer;
+      cursor: auto;
       overflow: hidden;
       border: none;
     }
@@ -243,6 +244,10 @@
     }
 
     a, button, input, textarea {
+      cursor: pointer;
+    }
+
+    .site-title a {
       cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28"><path d="M2 2 L2 22 L9 15 L12 24 L15 23 L12 14 L20 14 Z" fill="%232d5016" stroke="white" stroke-width="1.5"/></svg>') 2 2, pointer;
     }
 
@@ -299,7 +304,6 @@
   <header>
     <div class="site-title"><a href="/">{{ site.title }}</a></div>
     <nav>
-      <a href="/">HOME</a>
       <a href="/research">RESEARCH & DESIGN</a>
       <a href="/creative">ART</a>
       <a href="/talks-press">TALKS & PRESS</a>
