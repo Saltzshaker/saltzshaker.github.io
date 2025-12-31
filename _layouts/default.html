@@ -252,6 +252,17 @@
       cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28"><path d="M2 2 L2 22 L9 15 L12 24 L15 23 L12 14 L20 14 Z" fill="%232d5016" stroke="white" stroke-width="1.5"/></svg>') 2 2, pointer;
     }
 
+    a.social-link::after {
+      content: " ↗";
+      font-size: 0.8em;
+      opacity: 0.6;
+      margin-left: 2px;
+    }
+
+    a.social-link {
+      margin-right: 15px;
+    }
+
     footer {
       margin-top: 60px;
       margin-bottom: 100px;
@@ -317,7 +328,15 @@
   </div>
 
   <footer>
-    [2025] Cranes from <a href="https://www.youtube.com/watch?v=cekZzz_gu8c">The Heron and the Crane</a>, house from <a href="https://en.wikipedia.org/wiki/Icelandic_turf_house">the Icelandic turf house</a> Wikipedia page. General twee-ness from yours truly <3
+    {% if page.url == "/" %}
+      [2025] Cranes from <a href="https://www.youtube.com/watch?v=cekZzz_gu8c">The Heron and the Crane</a>, house from <a href="https://en.wikipedia.org/wiki/Icelandic_turf_house">the Icelandic turf house</a> Wikipedia page. General twee-ness from yours truly <3
+    {% else %}
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a> |
+      <a href="https://www.instagram.com/saltzshaker/" target="_blank" class="social-link">IG</a>
+      <a href="https://bsky.app/profile/saltzshaker.bsky.social" target="_blank" class="social-link">Bsky</a>
+      <a href="https://www.linkedin.com/in/esaltz" target="_blank" class="social-link">LinkedIn</a>
+      <a href="https://www.are.na/emily-saltz" target="_blank" class="social-link">Are.na</a>
+    {% endif %}
   </footer>
 </body>
 </html>
