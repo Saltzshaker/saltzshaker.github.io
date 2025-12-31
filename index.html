@@ -48,6 +48,17 @@ layout: default
   .profile-pic-container:hover::after {
     opacity: 1;
   }
+
+  .content p a[target="_blank"]::after {
+    content: " ↗";
+    font-size: 0.8em;
+    opacity: 0.6;
+    margin-left: 2px;
+  }
+
+  .content p a[target="_blank"] {
+    margin-right: 12px;
+  }
 </style>
 
 <svg width="0" height="0">
@@ -77,7 +88,9 @@ layout: default
 
     <p>
       <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
-      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">@{{ site.twitter_username }}</a>
+      <a href="https://www.instagram.com/saltzshaker/" target="_blank">IG: @saltzshaker</a>
+      <a href="https://www.linkedin.com/in/esaltz" target="_blank">LinkedIn</a>
+      <a href="https://www.are.na/emily-saltz" target="_blank">Are.na</a>
     </p>
   </div>
 </div>
