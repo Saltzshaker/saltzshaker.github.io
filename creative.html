@@ -10,9 +10,19 @@ layout: default
     margin-top: 30px;
   }
 
-  .portfolio-item {
+  a.portfolio-item {
+    display: block;
     border: 2px solid #2d5016;
     padding: 0;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  a.portfolio-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 4px 0 #2d5016;
+    background: transparent;
   }
 
   .portfolio-image {
@@ -25,6 +35,14 @@ layout: default
     justify-content: center;
     font-size: 12px;
     color: #999;
+    overflow: hidden;
+  }
+
+  .portfolio-image img,
+  .portfolio-image video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .portfolio-content {
@@ -34,15 +52,6 @@ layout: default
   .portfolio-title {
     font-weight: bold;
     margin-bottom: 8px;
-  }
-
-  .portfolio-title a {
-    text-decoration: none;
-    color: #000;
-  }
-
-  .portfolio-title a:hover {
-    text-decoration: underline;
   }
 
   .portfolio-description {
@@ -61,123 +70,103 @@ layout: default
 <h2 style="margin-bottom: 20px;">ART [in progress]</h2>
 
 <div class="portfolio-grid">
-  <div class="portfolio-item">
+  <a href="https://wfmu.org/playlists/shows/108956" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="https://wfmu.org/playlists/shows/108956">ALGOBOG special (Discobog on WFMU)</a>
-      </div>
+      <div class="portfolio-title">ALGOBOG special (Discobog on WFMU)</div>
       <div class="portfolio-description">
         Three-hour generative music special for my weekly radio show featuring live AI-generated audio and visuals
       </div>
     </div>
-  </div>
+  </a>
 
-  <div class="portfolio-item">
+  <a href="https://www.liacoleman.com/these-eyes-do-exist" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="https://www.liacoleman.com/these-eyes-do-exist">These Eyes Do Exist (Science Gallery Detroit/MSU)</a>
-      </div>
+      <div class="portfolio-title">These Eyes Do Exist (Science Gallery Detroit/MSU)</div>
       <div class="portfolio-description">
-        Video installation exploring several stages of AI art creation, displayed on a rotating room-sized sphere. Shown alongside zine <a href="https://medium.com/partnership-on-ai/a-field-guide-to-making-ai-art-responsibly-f7f4a5066ee">Making AI Art Responsibly: A Field Guide</a>.
+        Video installation exploring several stages of AI art creation, displayed on a rotating room-sized sphere. Shown alongside zine "Making AI Art Responsibly: A Field Guide"
       </div>
     </div>
-  </div>
+  </a>
 
-  <div class="portfolio-item">
+  <a href="http://www.katyarozanova.com/artwork/2021/11/27/bread-symphony-a-cross-species-collaboration-for-material-and-spiritual-nourishment" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="http://www.katyarozanova.com/artwork/2021/11/27/bread-symphony-a-cross-species-collaboration-for-material-and-spiritual-nourishment">Bread Symphony</a>
-      </div>
+      <div class="portfolio-title">Bread Symphony</div>
       <div class="portfolio-description">
         Workshop and sound art installation that sonifies phases of the bread fermentation process, presented at UC Berkeley's Refamiliarization exhibit in 2021
       </div>
     </div>
-  </div>
+  </a>
 
-  <div class="portfolio-item">
+  <a href="/aiartsphere" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="/aiartsphere">AI Art Sphere</a>
-      </div>
+      <div class="portfolio-title">AI Art Sphere</div>
       <div class="portfolio-description">
         Sphere
       </div>
     </div>
-  </div>
+  </a>
 
-  <div class="portfolio-item">
+  <a href="https://docs.google.com/presentation/d/1cw7Q2pQ-N0-5Y88_35buFSbQ1BiPQle3MwoQqb9DH_w/edit" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="https://docs.google.com/presentation/d/1cw7Q2pQ-N0-5Y88_35buFSbQ1BiPQle3MwoQqb9DH_w/edit">Human-Human Autocompletion</a>
-      </div>
+      <div class="portfolio-title">Human-Human Autocompletion</div>
       <div class="portfolio-description">
         Talk and workshop comparing human interruption and completions in speech to patterns in autocompletion software. Presented at Babycastles' WordHack in 2020 and Radical Networks in 2019
       </div>
     </div>
-  </div>
+  </a>
 
-  <div class="portfolio-item">
+  <a href="http://super-sad-googles.glitch.me" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="http://super-sad-googles.glitch.me">Super Sad Googles (Code Societies @ SFPC)</a>
-      </div>
+      <div class="portfolio-title">Super Sad Googles (Code Societies @ SFPC)</div>
       <div class="portfolio-description">
         Autocomplete populated by crowdcourced "sad" google searches
       </div>
     </div>
-  </div>
+  </a>
 
-  <div class="portfolio-item">
+  <a href="/filter-bubble-roulette" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="/filter-bubble-roulette">Filter Bubble Roulette (Winner of Mozilla's Reality Redrawn Challenge)</a>
-      </div>
+      <div class="portfolio-title">Filter Bubble Roulette (Winner of Mozilla's Reality Redrawn Challenge)</div>
       <div class="portfolio-description">
         An experience to inhabit user-specific social media feeds based on volumetric video interviews with a range of New Yorkers. Exhibited at the Tech Museum of Innovation
       </div>
     </div>
-  </div>
+  </a>
 
-  <div class="portfolio-item">
+  <a href="https://saltzshaker.github.io/close" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="https://saltzshaker.github.io/close">Close (but not too close)</a>
-      </div>
+      <div class="portfolio-title">Close (but not too close)</div>
       <div class="portfolio-description">
         An interactive installation using depth-sensors to explore the concept of proxemics with a virtual figure
       </div>
     </div>
-  </div>
+  </a>
 
-  <div class="portfolio-item">
+  <a href="https://saltzshaker.github.io/into-the-mode" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="https://saltzshaker.github.io/into-the-mode">Into the Mode</a>
-      </div>
+      <div class="portfolio-title">Into the Mode</div>
       <div class="portfolio-description">
         A web simulation of an early mode-based text editor which explores an alternate history of computer-based text editing
       </div>
     </div>
-  </div>
+  </a>
 
-  <div class="portfolio-item">
+  <a href="https://saltzshaker.github.io/illustration-mashups" target="_blank" class="portfolio-item">
     <div class="portfolio-image">[image placeholder]</div>
     <div class="portfolio-content">
-      <div class="portfolio-title">
-        <a href="https://saltzshaker.github.io/illustration-mashups">Slavic Vintage Illustration Mashups</a>
-      </div>
+      <div class="portfolio-title">Slavic Vintage Illustration Mashups</div>
       <div class="portfolio-description">
         Vector recreations and collages of found vintage Soviet print designs
       </div>
     </div>
-  </div>
+  </a>
 </div>
