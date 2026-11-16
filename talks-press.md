@@ -16,6 +16,8 @@ layout: default
 
 [AI for Meaningful Dialogue in the Public Square](https://youtu.be/uEu-80cPpKg?t=1541) - Research presentation for the Psychology of Technology Institute covering evaluation of "bridging" attributes for Perspective API, "annotator-in-the-loop" annotation methods, and measurement frameworks for prosocial interventions (2024).
 
+[AI & Improv: Influence Not Imitation](https://docs.google.com/presentation/d/1mf81XFFgh0-Piglj-gU-Ho-cx1yXv77kR-6jSLxdPr0/edit) - Talk on using AI generation as an improvisational influence rather than for imitation, drawing on [Games for Bodies](/creative), at Babycastles' WordHack (2022).
+
 [Human-Human Autocompletion](https://docs.google.com/presentation/d/1cw7Q2pQ-N0-5Y88_35buFSbQ1BiPQle3MwoQqb9DH_w/edit) - Talk and workshop comparing human interruptions and completions in speech to patterns in autocompletion software, at Babycastles' WordHack (2020) and Radical Networks (2019).
 
 [Neither Her Nor Hal](https://www.slideshare.net/EmilySaltz/neither-her-nor-hal-considering-access-and-representation-in-the-next-generation-of-speech-technology) - Considering Access and Representation in the Next Generation of Speech Technology at Processing Community Day in Los Angeles (2019).
