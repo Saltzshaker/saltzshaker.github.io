@@ -138,6 +138,27 @@
       color: #fff !important;
     }
 
+    .header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 10px;
+    }
+
+    .header-row .site-title {
+      margin-bottom: 0;
+    }
+
+    .header-row nav {
+      margin-top: 0;
+      text-align: right;
+    }
+
+    .header-row nav a:last-child {
+      margin-right: 0;
+    }
+
 
 
     .iceland-house {
@@ -309,20 +330,33 @@
         margin-right: 15px;
         margin-bottom: 10px;
       }
+
+      .header-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .header-row nav {
+        text-align: left;
+      }
+
+      .header-row nav a:last-child {
+        margin-right: 15px;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="site-title"><a href="/">{{ site.title }}</a></div>
-    <!--
-    <nav>
-      <a href="/research">RESEARCH & DESIGN</a>
-      <a href="/creative">ART</a>
-      <a href="/talks-press">TALKS & PRESS</a>
-      <a href="/cv">CV</a>
-    </nav>
-    -->
+    <div class="header-row">
+      <div class="site-title"><a href="/">{{ site.title }}</a></div>
+      <nav>
+        <a href="/research"{% if page.url contains '/research' %} class="active"{% endif %}>RESEARCH & DESIGN</a>
+        <a href="/creative"{% if page.url contains '/creative' %} class="active"{% endif %}>ART</a>
+        <a href="/talks-press"{% if page.url contains '/talks-press' %} class="active"{% endif %}>TALKS & PRESS</a>
+        <a href="/cv"{% if page.url contains '/cv' %} class="active"{% endif %}>RESUME</a>
+      </nav>
+    </div>
   </header>
 
   <div class="content">

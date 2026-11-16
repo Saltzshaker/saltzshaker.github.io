@@ -1,4 +1,5 @@
 ---
+published: false
 title:  "Close (but not too close)"
 image: img/close-700x400.png
 date:   2016-01-09 15:33:53 -0400
