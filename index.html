@@ -117,3 +117,59 @@ layout: default
 <img src="/img/2025 redo/crane.png" alt="Flying crane" class="crane crane1">
 <img src="/img/2025 redo/crane.png" alt="Flying crane" class="crane crane2">
 <img src="/img/2025 redo/crane.png" alt="Flying crane" class="crane crane3">
+
+<script>
+  // Cranes veer away from the cursor, then drift back to their flight path.
+  (function () {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var RADIUS = 150;     // how close the cursor gets before a crane reacts
+    var PUSH = 2.2;       // strength of the shove
+    var FRICTION = 0.88;  // how quickly the shove slows
+    var RETURN = 0.96;    // how quickly the crane drifts back
+    var MAX = 260;        // furthest a crane can be pushed, in px
+
+    var mouse = { x: -9999, y: -9999 };
+    var cranes = Array.prototype.map.call(document.querySelectorAll('.crane'), function (el) {
+      return { el: el, ox: 0, oy: 0, vx: 0, vy: 0 };
+    });
+    if (!cranes.length) return;
+
+    function setPointer(x, y) { mouse.x = x; mouse.y = y; }
+    window.addEventListener('mousemove', function (e) { setPointer(e.clientX, e.clientY); });
+    window.addEventListener('touchmove', function (e) {
+      if (e.touches[0]) setPointer(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+    window.addEventListener('touchstart', function (e) {
+      if (e.touches[0]) setPointer(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+    document.addEventListener('mouseleave', function () { setPointer(-9999, -9999); });
+
+    function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+
+    function tick() {
+      cranes.forEach(function (c) {
+        var r = c.el.getBoundingClientRect();
+        var dx = r.left + r.width / 2 - mouse.x;
+        var dy = r.top + r.height / 2 - mouse.y;
+        var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+
+        if (dist < RADIUS) {
+          var force = (RADIUS - dist) / RADIUS * PUSH;
+          c.vx += dx / dist * force;
+          c.vy += dy / dist * force;
+        }
+
+        c.vx *= FRICTION;
+        c.vy *= FRICTION;
+        c.ox = clamp((c.ox + c.vx) * RETURN, -MAX, MAX);
+        c.oy = clamp((c.oy + c.vy) * RETURN, -MAX, MAX);
+
+        c.el.style.translate = c.ox.toFixed(1) + 'px ' + c.oy.toFixed(1) + 'px';
+        c.el.style.rotate = clamp(c.vy * 3, -25, 25).toFixed(1) + 'deg';
+      });
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  })();
+</script>
