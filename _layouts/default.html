@@ -307,6 +307,125 @@
       background-size: 100px 2px;
     }
 
+    /* Old project pages (2016-2019 posts written for Bootstrap) */
+    .post, .fullpost {
+      position: relative;
+      z-index: 2;
+    }
+
+    .post .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 40px;
+      margin-bottom: 20px;
+    }
+
+    .post [class*="col-"] {
+      flex: 1 1 100%;
+      min-width: 0;
+    }
+
+    .post .col-md-8, .post .col-lg-8, .post .col-lg-7 {
+      flex: 2 1 400px;
+    }
+
+    .post .col-md-4, .post .col-lg-4, .post .col-lg-6 {
+      flex: 1 1 240px;
+    }
+
+    .post .col-md-2 {
+      flex: 0 1 120px;
+    }
+
+    .post h1, .post .page-header {
+      font-size: 1.5em;
+      font-weight: bold;
+      line-height: 1.3;
+      margin: 0 0 20px;
+      padding: 0;
+      border: none;
+    }
+
+    .post h2 {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 30px 0 10px;
+    }
+
+    .post h3 {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 25px 0 10px;
+    }
+
+    .post .row > [class*="col-"] > h3:first-child {
+      margin-top: 0;
+    }
+
+    .post p {
+      margin: 0 0 15px;
+    }
+
+    .post ul, .post ol {
+      margin: 0 0 15px;
+      padding-left: 20px;
+    }
+
+    .post .highlight {
+      font-weight: bold;
+    }
+
+    .post hr {
+      border: none;
+      height: 2px;
+      margin: 10px 0 30px;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="2" viewBox="0 0 100 2"><path d="M0,1 Q5,0.5 10,1 T20,1 T30,1 T40,1 T50,1 T60,1 T70,1 T80,1 T90,1 T100,1" stroke="%232d5016" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>') repeat-x;
+      background-size: 100px 2px;
+      opacity: 0.6;
+    }
+
+    .post img {
+      display: block;
+      max-width: 100%;
+      max-height: 70vh;
+      width: auto;
+      height: auto;
+      margin: 0 0 10px;
+      border: 2px solid #2d5016;
+      box-shadow: none !important;
+    }
+
+    .post img.smaller { max-width: 70%; }
+    .post img.lil-smaller { max-width: 85%; }
+    .post img.even-smaller { max-width: 40%; }
+    .post img.inline { display: inline-block; margin-right: 10px; }
+
+    .post .figcaption, .post .figure-caption {
+      font-size: 12px;
+      opacity: 0.7;
+      margin: 0 0 25px;
+    }
+
+    .post iframe, .post .video, .post video {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      margin: 0 0 10px;
+      border: 2px solid #2d5016;
+    }
+
+    .post .center, .post [style*="text-align: center"] {
+      text-align: left !important;
+    }
+
+    @media (max-width: 768px) {
+      .post img.smaller, .post img.lil-smaller, .post img.even-smaller {
+        max-width: 100%;
+      }
+    }
+
     @media (max-width: 768px) {
       .iceland-house {
         width: 400px;
