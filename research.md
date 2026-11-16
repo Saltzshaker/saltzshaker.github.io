@@ -52,4 +52,4 @@ layout: default
 
 ### Earlier
 
-[Pop Up Archive](https://saltzshaker.github.io/podfinder) - Community codesign and wireframing for podcast and radio search products.
+[Pop Up Archive](/podfinder) - Community codesign and wireframing for podcast and radio search products.
